@@ -1,7 +1,11 @@
-body {
+/* body {
   overflow-y: hidden !important;
   overflow-x: hidden !important;
-}
+} */
+
+/* .overflowAbout {
+  overflow-y: visible !important;
+} */
 
 .poppins {
   font-family: "Poppins";
@@ -15,11 +19,27 @@ body {
   color: #01bbae;
 }
 
+.footer {
+  background-color: #333333;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+  opacity: 75%;
+}
+
 .contactForm {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   align-items: center;
 }
+
+/* .aboutGrid {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+} */
 
 @tailwind base;
 @tailwind components;

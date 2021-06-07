@@ -13,9 +13,9 @@ const NavWrapper = styled.div`
 const Nav = () => {
   return (
     <nav>
-      <NavWrapper className="bg-white">
+      <NavWrapper className="bg-white bg-opacity-75">
         <Link to="/">
-          <h1 className="text-3xl p-2 font-bold">JR</h1>
+          <h1 className="text-4xl ml-5 p-3 font-bold">JR</h1>
         </Link>
         <div className="mr-10">
           <Link
@@ -26,13 +26,13 @@ const Nav = () => {
           </Link>
           <Link
             to="/projects"
-            className="p-2 m-2 rounded-sm border border-green-400"
+            className="p-2 m-2 hover:border-green-500 rounded-sm border border-green-400"
           >
             Projects
           </Link>
           <Link
             to="/contact"
-            className="p-2 m-2 rounded-sm border border-green-400"
+            className="p-2 m-2 hover:border-green-500 rounded-sm border border-green-400"
           >
             Contact
           </Link>

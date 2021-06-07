@@ -1,21 +1,37 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout";
+import TextLooper from "../components/TextLooper";
 
 const About = () => {
   return (
     <Layout>
-      <div className="h-96 flex flex-col justify-center items-center ml-60 mr-60">
-        <p className="poppins text-3xl mt-40">
-          I have a French equivalent of a foundation degree and a bachelor's
-          degree in web and mobile web development in full stack JavaScript and
-          PHP development (European Qualifications Framework){" "}
+      <TextLooper />
+      <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 mb-10 flex flex-col lg:flex lg:flex-row min-w-20 max-w-full aboutGrid text-center mb-20">
+        {/* <p className="poppins text-3xl mt-40">
+         Back from France after 14 years I am looking for work in the South East
+        </p> */}
+        <p className="poppins text-2xl m-2 p-2">
+          Why coding? I find it to be the perfect balance of creativity, which I
+          value very highly, and problem solving, which keeps my analytical mind
+          busy.
         </p>
-        <p className="poppins text-3xl pt-10">
+        <p className="poppins text-2xl m-2 p-2">
+          I have a foundation degree and a bachelor's degree in full stack
+          JavaScript and web and mobile web development (European Qualifications
+          Framework){" "}
+        </p>
+
+        <p className="poppins text-2xl m-2 p-2 mb-10">
           {" "}
-          Previous to my career change in 2019 I set up a cold pressed juice
-          company in Paris and I worked as a teacher in some of the best
-          business schools in France: HEC, ESCP Europe, ESSEC, among others
+          Previous to my career change in 2019 I set up a{" "}
+          <a
+            className="textSiteGreen"
+            href="https://www.instagram.com/refresh.coldpress/"
+          >
+            cold pressed juice company
+          </a>{" "}
+          and worked as a Business English teacher in Paris.
         </p>
       </div>
     </Layout>

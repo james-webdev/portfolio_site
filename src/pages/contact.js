@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Layout>
-        <div className="border border-black ml-5 mr-5 md:ml-20 md:mr-20 xl:ml-40 xl:mr-40">
+        <div className="h-full border border-black ml-5 mr-5 md:ml-20 md:mr-20 xl:ml-40 xl:mr-40">
           <ContactForm />
         </div>
       </Layout>
