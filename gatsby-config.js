@@ -3,4 +3,5 @@ module.exports = {
     title: "My_Portfolio_Site",
   },
   plugins: [],
+  plugins: ["gatsby-plugin-postcss"],
 };
