@@ -40,24 +40,31 @@ const ContactForm = () => {
     <>
       <div className="bgSiteGreen rounded p-4 mt-5 text-center contactForm">
         <div className="text-black">
-          <h1 className="poppins text-4xl">Get in touch.</h1>
-          <p className="poppins">I'll get right back to you.</p>
+          <h1 className="poppins text-4xl">Send me a message.</h1>
         </div>
         <form className="" onSubmit={handleOnSubmit}>
-          <div className="">
+          <div className="flex flex-col justify-center items-center">
             <input
-              className="h-10 mt-4 mb-4 rounded text-black text-center"
+              className="h-10 mt-4 w-40 mb-2 rounded text-black text-center"
               type="email"
               name="email"
               placeholder="You@Example.com"
             />
+            <input
+              className="h-40 mt-2 w-60 mb-4 rounded text-black text-center"
+              type="text"
+              name="message"
+              placeholder="Your message"
+            />
+          </div>
             <button
               className="ml-10 mr-10 mt-5 mb-5 p-3 rounded bg-white text-black poppins"
               type="submit"
-            >
+            > 
+             <p className="">
               Send
+            </p>
             </button>
-          </div>
         </form>
       </div>
       {serverState.message && (
