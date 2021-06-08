@@ -6,7 +6,9 @@ import TextLooper from "../components/TextLooper";
 const About = () => {
   return (
     <Layout>
+     <div className="">
       <TextLooper />
+     </div>
       <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 mb-10 flex flex-col lg:flex lg:flex-row min-w-20 max-w-full aboutGrid text-center mb-20">
         {/* <p className="poppins text-3xl mt-40">
          Back from France after 14 years I am looking for work in the South East

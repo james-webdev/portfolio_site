@@ -21,7 +21,7 @@ const Contact = () => {
                 </div>
               </button>
         </div>
-        <div className="text-center mt-10 mb-10">
+        <div className="text-center mt-10 mb-28">
         <p className="poppins text-3xl textSiteGreen hover:green-500">Or I'm on 033778884517</p>
         </div>
        

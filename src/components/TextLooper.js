@@ -3,7 +3,7 @@ import TextLoop from "react-text-loop";
 
 const TextLooper = () => {
   return (
-    <div className="h-40 zindex text-xl p-1 font-bold flex flex-col sm:flex-row items-center justify-center sm:text-3xl">
+    <div className="h-60 text-xl p-1 font-bold flex flex-col sm:flex-row items-center justify-center sm:text-3xl">
       <div className="p-2 leading-loose">Some of the tools I use</div>
       <TextLoop className="z-0 bgSiteGreen p-1 text-xl text-white rounded-lg sm:text-3xl">
         <p className="ml-2 z-0 mt-2">React.js</p>

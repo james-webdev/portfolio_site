@@ -13,7 +13,7 @@ const NavWrapper = styled.div`
 const Nav = () => {
   return (
     <nav>
-      <NavWrapper className="bg-white bg-opacity-75">
+      <NavWrapper className="bg-white sticky top-0 bg-opacity-75">
         <Link to="/">
           <h1 className="text-4xl ml-5 p-3 font-bold">JR</h1>
         </Link>
