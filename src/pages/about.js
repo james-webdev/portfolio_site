@@ -13,17 +13,17 @@ const About = () => {
         {/* <p className="poppins text-3xl mt-40">
          Back from France after 14 years I am looking for work in the South East
         </p> */}
-        <p className="poppins text-2xl m-3 p-2">
+        <p className="poppins text-lg sm:text-2xl m-3 p-2">
           Why coding? I find it to be the perfect balance of creativity, which I
           value very highly, and problem solving, which keeps my analytical mind
           busy.
         </p>
-        <p className="poppins text-2xl m-3 p-2">
+        <p className="poppins text-lg sm:text-2xl m-3 p-2">
           I have a foundation degree and a bachelor's degree in full stack
           JavaScript and web and mobile web development.{" "}
         </p>
 
-        <p className="poppins text-2xl m-3 p-2 aboutMarginB mb-10">
+        <p className="poppins text-lg sm:text-2xl m-3 p-2 aboutMarginB mb-10">
           {" "}
           Previous to my career change in 2019 I set up a{" "}
           <a
