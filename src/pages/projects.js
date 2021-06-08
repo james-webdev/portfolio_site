@@ -5,7 +5,9 @@ const Projects = () => {
   return (
     <>
       <Layout>
-        <div>Projects page</div>
+        <div className="text-3xl font-semibold mt-32 border border-black">
+          What I've been working on
+        </div>
         <div></div>
       </Layout>
     </>
