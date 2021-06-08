@@ -25,7 +25,7 @@ const About = () => {
 
         <p className="poppins text-lg sm:text-2xl m-3 p-2 aboutMarginB mb-10">
           {" "}
-          Previous to my career change in 2019 I set up a{" "}
+          Previous to my career change in 2019 I studied naturopathy, set up a{" "}
           <a
             className="textSiteGreen"
             href="https://www.instagram.com/refresh.coldpress/"
