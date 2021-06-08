@@ -46,9 +46,23 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 } */
 
+/* for smaller screens  */
+
 @media only screen and (max-width: 350px) {
   .onVSmall {
     display: none;
+  }
+
+  .aboutMarginB {
+    margin-bottom: 250px;
+    margin: 0;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

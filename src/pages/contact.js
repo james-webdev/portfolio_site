@@ -20,7 +20,7 @@ const Contact = () => {
                 subject="I have a question"
                 body="Hey!"
               >
-                <a className="poppins font-bold underline text-2xl hover:green-500">
+                <a className="poppins font-bold hover:green-200 text-2xl hover:green-500">
                   jamesroe.dev@gmail.com
                 </a>
               </Mailto>
@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
         <div className="text-center mt-2 mb-28">
           <p className="poppins text-2xl hover:green-500">
-            033778884517
+            +33778884517
           </p>
         </div>
       </Layout>

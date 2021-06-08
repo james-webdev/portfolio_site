@@ -6,10 +6,10 @@ import TextLooper from "../components/TextLooper";
 const About = () => {
   return (
     <Layout>
-     <div className="">
-      {/* <TextLooper /> */}
-     </div>
-      <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 flex flex-col lg:flex lg:flex-row min-w-80 max-w-full aboutGrid text-center mb-96 mt-40">
+      <div className="mt-10 md:mt-20 mb-10 md:mb-20">
+        <TextLooper />
+      </div>
+      <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 flex flex-col lg:flex lg:flex-row text-center mb-96 mt-40">
         {/* <p className="poppins text-3xl mt-40">
          Back from France after 14 years I am looking for work in the South East
         </p> */}
@@ -20,11 +20,10 @@ const About = () => {
         </p>
         <p className="poppins text-2xl m-2 p-2">
           I have a foundation degree and a bachelor's degree in full stack
-          JavaScript and web and mobile web development (European Qualifications
-          Framework){" "}
+          JavaScript and web and mobile web development.{" "}
         </p>
 
-        <p className="poppins text-2xl m-2 p-2 mb-10">
+        <p className="poppins text-2xl m-2 p-2 aboutMarginB mb-10">
           {" "}
           Previous to my career change in 2019 I set up a{" "}
           <a
@@ -35,6 +34,9 @@ const About = () => {
           </a>{" "}
           and worked as a Business English teacher in Paris.
         </p>
+        {/* <p className="poppins text-2xl m-2 p-2 aboutMarginB mb-10">
+          I just moved back to England after 14 years living in Paris.{" "}
+        </p> */}
       </div>
     </Layout>
   );
