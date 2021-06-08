@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import TextLooper from "../components/TextLooper";
 
 const BlobWrapper = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Poppins:700");
@@ -143,6 +144,9 @@ const Main = () => {
           <h2>I use React to build cool things on the web.</h2>
         </div>
       </BlobWrapper>
+      <div className="mt-28 mb-10 md:mb-20">
+        <TextLooper />
+      </div>
     </div>
   );
 };
