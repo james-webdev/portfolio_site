@@ -139,12 +139,14 @@ const Main = () => {
           </svg>
         </div> */}
         <div className="h-96 text-sm sm:text-2xl flex flex-col justify-center items-center text-center">
-          <h1 className="text-xl sm:text-3xl">Hi I'm James. I'm a Front End Developer.</h1>
+          <h1 className="text-xl sm:text-3xl">
+            Hi I'm James. I'm a Front End Developer.
+          </h1>
           <br />
           <h2>I use React to build cool things on the web.</h2>
         </div>
       </BlobWrapper>
-      <div className="mb-40">
+      <div className="mb-40 mt-28 smallprojectsloop">
         <TextLooper />
       </div>
     </div>

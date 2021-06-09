@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <>
       <Layout>
-        <div className="ml-5 mr-5 md:ml-60 md:mr-60">
+        <div className="ml-5 mr-5 md:ml-60 md:mr-60 smallprojects">
           <div className="text-3xl font-semibold mt-32">
             What I've been working on
           </div>

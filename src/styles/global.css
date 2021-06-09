@@ -79,13 +79,14 @@
 
 @media only screen and (max-width: 370px) {
   .smallprojects {
-    width: 280px !important;
+    width: 250px !important;
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 350px) {
   .smallprojectsloop {
-    font-size: 12px !important;
+    display: none;
+    /* font-size: 12px !important; */
   }
 }
 
