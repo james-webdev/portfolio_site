@@ -5,6 +5,7 @@ import ArtBook from "../images/ArtBookDesktopWelcome.png";
 import Pictionary from "../images/WebsocketsDesktop.png";
 import Guardian from "../images/GuardianDesktop.png";
 import Chatter from "../images/ChatterDesktop.png";
+import TextLooper from "../components/TextLooper";
 
 const Projects = () => {
   return (
@@ -14,6 +15,7 @@ const Projects = () => {
           <div className="text-3xl font-semibold mt-32">
             What I've been working on
           </div>
+
           <div className="p-4 mb-40 projectsGrid mt-5 sm:mt-10">
             <Link to="/projects/artbook">
               <div className="rounded shadow-xl transform transition duration-500 hover:scale-105 smallprojects">

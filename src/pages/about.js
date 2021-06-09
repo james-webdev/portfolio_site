@@ -2,14 +2,16 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import TextLooper from "../components/TextLooper";
+import Me from "../images/jim.png";
 
 const About = () => {
   return (
     <Layout>
-      <div className="mt-10 md:mt-20 mb-2 md:mb-20">
-        <TextLooper />
+      <div className="border border-black flex justify-center items-center mt-40 sm:mt-28">
+        <img className="w-60" src={Me} alt="" />
       </div>
-      <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 flex flex-col lg:flex lg:flex-row text-center mb-96 mt-10 sm:mt-40">
+
+      <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 flex flex-col lg:flex lg:flex-row text-center mb-60">
         {/* <p className="poppins text-3xl mt-40">
          Back from France after 14 years I am looking for work in the South East
         </p> */}
@@ -23,7 +25,7 @@ const About = () => {
           JavaScript and web and mobile web development.{" "}
         </p>
 
-        <p className="poppins text-lg sm:text-2xl m-3 p-2 aboutMarginB mb-10">
+        <p className="poppins text-lg sm:text-2xl m-3 p-2 aboutMarginB mb-40">
           {" "}
           Previous to my career change in 2019 I studied naturopathy, set up a{" "}
           <a

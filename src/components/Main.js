@@ -144,9 +144,9 @@ const Main = () => {
           <h2>I use React to build cool things on the web.</h2>
         </div>
       </BlobWrapper>
-      {/* <div className="mt-28 mb-10 md:mb-20">
+      <div className="mb-40">
         <TextLooper />
-      </div> */}
+      </div>
     </div>
   );
 };
