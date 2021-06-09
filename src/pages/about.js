@@ -3,13 +3,13 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import TextLooper from "../components/TextLooper";
 import Me from "../images/jim.png";
-import Me2 from "../images/image2.jpeg";
+import Me2 from "../images/Me2.png";
 
 const About = () => {
   return (
     <Layout>
       <div className="flex justify-center items-center mt-40 sm:mt-28">
-        <img className="w-48 rounded-lg shadow-lg" src={Me2} alt="" />
+        <img className="w-56 rounded-lg shadow-lg" src={Me2} alt="" />
       </div>
 
       <div className="h-96 ml-5 mr-5 md:ml-60 md:mr-60 flex flex-col lg:flex lg:flex-row text-center mt-10 mb-60">
