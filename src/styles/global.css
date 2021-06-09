@@ -79,16 +79,16 @@
 
 @media only screen and (max-width: 370px) {
   .smallprojects {
-    width: 230px !important;
+    width: 200px !important;
   }
 }
 
-/* @media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
   .smallprojectsloop {
     display: none;
-    
+    /* font-size: 12px !important; */
   }
-} */
+}
 
 @tailwind base;
 @tailwind components;

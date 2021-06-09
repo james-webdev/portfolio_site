@@ -29,10 +29,10 @@ const TextWrapper = styled.div`
 const TextLooper = () => {
   return (
     <div className="h-60 text-xl p-1 font-bold flex flex-col sm:flex-row items-center justify-center sm:text-3xl">
-      <div className="p-2 leading-loose">
+      <div className="p-2 leading-loose smallprojectsloop">
         <h1>Some tools I use:</h1>
       </div>
-      <TextLoop className="z-0 bgSiteGreen p-1 text-xl text-white rounded-lg sm:text-3xl">
+      <TextLoop className="z-0 bgSiteGreen p-1 text-xl text-white rounded-lg sm:text-3xl smallprojectsloop">
         <p className="ml-2 z-0 mt-2">React.js</p>
         <p className="ml-2 z-0 mt-2">JavaScript</p>
         <p className="ml-2 z-0 mt-2">Gatsby.js</p>
