@@ -12,11 +12,11 @@ const Projects = () => {
     <>
       <Layout>
         <div className="ml-5 mr-5 md:ml-60 md:mr-60 smallprojects">
-          <div className="text-3xl font-semibold mt-32">
+          <div className="text-3xl font-semibold mt-32 smallprojects">
             What I've been working on
           </div>
 
-          <div className="p-4 mb-40 projectsGrid mt-5 sm:mt-10">
+          <div className="p-4 mb-40 projectsGrid mt-5 sm:mt-10 smallprojects">
             <Link to="/projects/artbook">
               <div className="rounded shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={ArtBook} alt="" />
@@ -43,7 +43,7 @@ const Projects = () => {
               <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Pictionary} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">
                   Websockets Pictionary
                 </p>
@@ -65,7 +65,7 @@ const Projects = () => {
               <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Guardian} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">
                   Worktools Website
                 </p>
@@ -83,10 +83,10 @@ const Projects = () => {
               </div>
             </Link>
             <Link to="/projects/chatter">
-              <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
+              <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Chatter} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">Chatter Website</p>
                 <p className="mt-5 text-md">A website with React and Gatsby</p>
                 <div className="mt-5">
