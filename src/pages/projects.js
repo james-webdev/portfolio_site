@@ -16,10 +16,10 @@ const Projects = () => {
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 sm:mt-10">
             <Link to="/projects/artbook">
-              <div className="rounded shadow-xl transform transition duration-500 hover:scale-105">
+              <div className="rounded shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={ArtBook} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">
                   ArtBook Social Network
                 </p>
@@ -38,10 +38,10 @@ const Projects = () => {
               </div>
             </Link>
             <Link to="/projects/pictionary">
-              <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105">
+              <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Pictionary} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">
                   Websockets Pictionary
                 </p>
@@ -60,10 +60,10 @@ const Projects = () => {
               </div>
             </Link>
             <Link to="/projects/guardian">
-              <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105">
+              <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Guardian} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">
                   Worktools Website
                 </p>
@@ -81,10 +81,10 @@ const Projects = () => {
               </div>
             </Link>
             <Link to="/projects/chatter">
-              <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+              <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Chatter} alt="" />
               </div>
-              <div className="text-left">
+              <div className="text-left smallprojects">
                 <p className="mt-3 text-2xl font-bold mt-10">Chatter Website</p>
                 <p className="mt-5 text-md">A website with React and Gatsby</p>
                 <div className="mt-5">
