@@ -21,84 +21,85 @@ const Projects = () => {
               <div className="rounded shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={ArtBook} alt="" />
               </div>
-              <div className="text-left smallprojects">
-                <p className="mt-3 text-2xl font-bold mt-10">
-                  ArtBook Social Network
-                </p>
-                <p className="mt-5 text-md">
-                  A MERN social network allowing you to share art with your
-                  friends
-                </p>
-                <div className="mt-5">
-                  <Link
-                    className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
             </Link>
+            <div className="text-left smallprojects">
+              <p className="mt-3 text-2xl font-bold mt-10">
+                ArtBook Social Network
+              </p>
+              <p className="mt-5 text-md">
+                A MERN social network allowing you to share art with your
+                friends
+              </p>
+              <div className="mt-5">
+                <Link
+                  className="hover:underline font-semibold text-md"
+                  to="/projects/chatter"
+                >
+                  VIEW PROJECT
+                </Link>
+              </div>
+            </div>
+
             <Link to="/projects/pictionary">
               <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Pictionary} alt="" />
               </div>
-              <div className="text-left smallprojects">
-                <p className="mt-3 text-2xl font-bold mt-10">
-                  Websockets Pictionary
-                </p>
-                <p className="mt-5 text-md">
-                  A pictionary game using P5.js and websockets with a mongoDB
-                  database
-                </p>
-                <div className="mt-5">
-                  <Link
-                    className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
             </Link>
+            <div className="text-left smallprojects">
+              <p className="mt-3 text-2xl font-bold mt-10">
+                Websockets Pictionary
+              </p>
+              <p className="mt-5 text-md">
+                A pictionary game using P5.js and websockets with a mongoDB
+                database
+              </p>
+              <div className="mt-5">
+                <Link
+                  className="hover:underline font-semibold text-md"
+                  to="/projects/chatter"
+                >
+                  VIEW PROJECT
+                </Link>
+              </div>
+            </div>
+
             <Link to="/projects/guardian">
               <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Guardian} alt="" />
               </div>
-              <div className="text-left smallprojects">
-                <p className="mt-3 text-2xl font-bold mt-10">
-                  Worktools Website
-                </p>
-                <p className="mt-5 text-md">
-                  A website in React with Gatsby and custom CSS animations
-                </p>
-                <div className="mt-5">
-                  <Link
-                    className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
             </Link>
+            <div className="text-left smallprojects">
+              <p className="mt-3 text-2xl font-bold mt-10">Worktools Website</p>
+              <p className="mt-5 text-md">
+                A website in React with Gatsby and custom CSS animations
+              </p>
+              <div className="mt-5">
+                <Link
+                  className="hover:underline font-semibold text-md"
+                  to="/projects/chatter"
+                >
+                  VIEW PROJECT
+                </Link>
+              </div>
+            </div>
+
             <Link to="/projects/chatter">
               <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Chatter} alt="" />
               </div>
-              <div className="text-left smallprojects">
-                <p className="mt-3 text-2xl font-bold mt-10">Chatter Website</p>
-                <p className="mt-5 text-md">A website with React and Gatsby</p>
-                <div className="mt-5">
-                  <Link
-                    className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
             </Link>
+            <div className="text-left smallprojects">
+              <p className="mt-3 text-2xl font-bold mt-10">Chatter Website</p>
+              <p className="mt-5 text-md">A website with React and Gatsby</p>
+              <div className="mt-5">
+                <Link
+                  className="hover:underline font-semibold text-md"
+                  to="/projects/chatter"
+                >
+                  VIEW PROJECT
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </Layout>
