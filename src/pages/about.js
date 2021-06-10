@@ -15,19 +15,19 @@ const About = () => {
 
         <div className="h-96 ml-8 mr-8 flex flex-col mt-40 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
           <p className="text-md sm:text-xl">
-            At the beginning of 2019 I was stuck in a career I
-            wasn't enjoying and faced with the closure of a company I had put my
-            all into for several years. I was looking for a way forward.{" "}
+            At the beginning of 2019, after nine years teaching in universities
+            and business schools in Paris and faced with the closure of a
+            company I had put my all into for several years, I was looking for a
+            new direction.{" "}
           </p>
           <p className="text-md sm:text-xl mt-5">
-            A succesion of synchronous events led me to development. I was able to
-            apply for and get on a course entirely funded by the French state
-            and get funding for 2 years to change career. After the first PHP
-            focused web and mobile web development course I began a second fully funded
-            course in Full Stack JavaScript development.
+            A succesion of synchronous events led me to development. I was able
+            to apply for and get on a course in PHP focused web and mobile web
+            development. I followed this up with a second course in Full Stack
+            JavaScript development.
           </p>
           <p className="text-md sm:text-xl mt-5">
-            I have been coding nearly every day for 2 years now and have worked
+            I have been coding nearly every day now for 2 years and have worked
             on a range of
             <Link className="textSiteGreen" to="/projects">
               {" "}
@@ -39,9 +39,10 @@ const About = () => {
           </p>
 
           <p className="text-md sm:text-xl mt-5">
-            After 14 years in Paris I am now back in Surrey, where I grew up, and looking for my
-            next role. Outside of work I enjoy road biking and reading.
-            Last year I wrote a short dystopian novel set in the 22nd century.
+            After 14 years in Paris I am now back in Surrey, where I grew up,
+            and looking for my next role. Outside of work I enjoy road biking
+            and reading. Last year I wrote a short dystopian novel set in the
+            22nd century.
           </p>
         </div>
       </div>
