@@ -9,11 +9,11 @@ const About = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center">
-        <div className="flex justify-center items-center mt-40 sm:mt-28">
+        <div className="flex justify-center items-center mt-40 sm:mt-28 mb-20">
           <img className="w-56 rounded-lg shadow-lg" src={Me2} alt="" />
         </div>
 
-        <div className="h-96 ml-8 mr-8 flex flex-col mt-40 mb-60 max-w-3xl text-center justify-center items-center">
+        <div className="h-96 ml-8 mr-8 flex flex-col mt-32 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
           <p className="text-md sm:text-xl">
             At the beginning of 2019 I was in a low place, stuck in a career I
             wasn't enjoying and faced with the failure of a company I had put my
@@ -25,7 +25,6 @@ const About = () => {
             and get funding for 2 years to change career. After the first PHP
             focused web and mobile web development course I began a second
             course in Full Stack JavaScript development. I have been coding
-            nearly every day for 2 years now and have been able to create a
             range of
             <Link className="textSiteGreen" to="/projects">
               {" "}
