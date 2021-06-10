@@ -24,8 +24,8 @@ const About = () => {
             apply for and get on a course entirely funded by the French state
             and get funding for 2 years to change career. After the first PHP
             focused web and mobile web development course I began a second
-            course in Full Stack JavaScript development. I have developed a
-            range of
+            course in Full Stack JavaScript development. I have been coding
+            nearly every day for 2 years and have worked on a range of
             <Link className="textSiteGreen" to="/projects">
               {" "}
               projects{" "}
