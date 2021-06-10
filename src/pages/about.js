@@ -22,7 +22,7 @@ const About = () => {
           <p className="text-md sm:text-xl mt-5">
             A succesion of synchronous events led me to development. I was able
             to apply for and get on a course in PHP focused web and mobile web
-            development. I followed this up with a second course in Full Stack
+            development. I followed this up with a course in Full Stack
             JavaScript development.
           </p>
           <p className="text-md sm:text-xl mt-5">
