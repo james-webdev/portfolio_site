@@ -13,7 +13,7 @@ const About = () => {
           <img className="w-56 rounded-lg shadow-lg" src={Me2} alt="" />
         </div>
 
-        <div className="h-96 ml-8 mr-8 flex flex-col mt-36 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
+        <div className="h-96 ml-8 mr-8 flex flex-col mt-40 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
           <p className="text-md sm:text-xl">
             At the beginning of 2019 I was in a low place, stuck in a career I
             wasn't enjoying and faced with the failure of a company I had put my
@@ -40,7 +40,7 @@ const About = () => {
 
           <p className="text-md sm:text-xl mt-5">
             After 14 years in Paris I am now back in the UK and looking for my
-            next challenge. Outside of work I enjoy road biking and reading.
+            next role. Outside of work I enjoy road biking and reading.
             Last year I wrote a short dystopian novel set in the 22nd century.
           </p>
         </div>

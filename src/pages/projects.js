@@ -17,7 +17,7 @@ const Projects = () => {
             What I've been working on
           </div>
           <div>
-            <p className="text-md font-semibold mt-3 smallprojects">
+            <p className="text-md mt-3 smallprojects">
               Take a look at some of the applications and websites I've
               dedicated my time to
             </p>
@@ -46,31 +46,6 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-
-            <Link to="/projects/pictionary">
-              <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
-                <img src={Pictionary} alt="" />
-              </div>
-
-              <div className="text-left smallprojects">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
-                  Websockets Pictionary
-                </p>
-                <p className="mt-5 text-md">
-                  A pictionary game using P5.js and websockets with a mongoDB
-                  database
-                </p>
-                <div className="mt-5">
-                  <Link
-                    className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
-            </Link>
-
             <Link to="/projects/guardian">
               <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
                 <img src={Guardian} alt="" />
@@ -93,17 +68,19 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-
-            <Link to="/projects/chatter">
-              <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 smallprojects">
-                <img src={Chatter} alt="" />
+            <Link to="/projects/pictionary">
+              <div className="rounded-lg shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
+                <img src={Pictionary} alt="" />
               </div>
 
               <div className="text-left smallprojects">
-                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
-                  Chatter Website
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Websockets Pictionary
                 </p>
-                <p className="mt-5 text-md">A website with React and Gatsby</p>
+                <p className="mt-5 text-md">
+                  A pictionary game using P5.js and websockets with a MongoDB
+                  database
+                </p>
                 <div className="mt-5">
                   <Link
                     className="hover:underline font-semibold text-md"
@@ -124,12 +101,34 @@ const Projects = () => {
                   Boutique Jus
                 </p>
                 <p className="mt-5 text-md">
-                  An E-commerce application in PHP and Bootstrap with a MySQL database
+                  An E-commerce application in PHP and Bootstrap with a MySQL
+                  database
                 </p>
                 <div className="mt-5">
                   <Link
                     className="hover:underline font-semibold text-md"
                     to="/projects/jus"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/chatter">
+              <div className="rounded-lg shadow-lg transform transition duration-500 hover:scale-105 smallprojects">
+                <img src={Chatter} alt="" />
+              </div>
+
+              <div className="text-left smallprojects">
+                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
+                  Chatter Website
+                </p>
+                <p className="mt-5 text-md">A website with React and Gatsby</p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
                   >
                     VIEW PROJECT
                   </Link>
