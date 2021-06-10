@@ -6,6 +6,7 @@ import Pictionary from "../images/WebsocketsDesktop.png";
 import Guardian from "../images/GuardianDesktop.png";
 import Chatter from "../images/ChatterDesktop.png";
 import TextLooper from "../components/TextLooper";
+import Jus from "../images/Jus.png";
 
 const Projects = () => {
   return (
@@ -14,6 +15,12 @@ const Projects = () => {
         <div className="ml-5 mr-5 md:ml-60 md:mr-60 smallprojects">
           <div className="text-3xl font-semibold mt-32 smallprojects">
             What I've been working on
+          </div>
+          <div>
+            <p className="text-md font-semibold mt-3 smallprojects">
+              Take a look at some of the applications and websites I've
+              dedicated my time to
+            </p>
           </div>
 
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 smallprojects">
@@ -101,6 +108,28 @@ const Projects = () => {
                   <Link
                     className="hover:underline font-semibold text-md"
                     to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/jus">
+              <div className="rounded shadow-xl transform transition duration-500 hover:scale-105 smallprojects">
+                <img src={Jus} alt="" />
+              </div>
+              <div className="text-left smallprojects">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Boutique Jus
+                </p>
+                <p className="mt-5 text-md">
+                  An E-commerce application in PHP and Bootstrap with a MySQL database
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/jus"
                   >
                     VIEW PROJECT
                   </Link>
