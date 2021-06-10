@@ -15,10 +15,9 @@ const About = () => {
 
         <div className="h-96 ml-8 mr-8 flex flex-col mt-40 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
           <p className="text-md sm:text-xl">
-            At the beginning of 2019, after nine years teaching in universities
-            and business schools in Paris and faced with the closure of a
-            company I had put my all into for several years, I was looking for a
-            new direction.{" "}
+            At the beginning of 2019, after 9 years teaching business English in
+            Paris and faced with the closure of a company I'd set up, I was
+            looking for a new direction.{" "}
           </p>
           <p className="text-md sm:text-xl mt-5">
             A succesion of synchronous events led me to development. I was able
@@ -27,7 +26,7 @@ const About = () => {
             JavaScript development.
           </p>
           <p className="text-md sm:text-xl mt-5">
-            I have been coding nearly every day now for 2 years and have worked
+            I have been coding nearly every day for 2 years now and have worked
             on a range of
             <Link className="textSiteGreen" to="/projects">
               {" "}
