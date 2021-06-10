@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="h-96 ml-8 mr-8 flex flex-col mt-40 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
           <p className="text-md sm:text-xl">
-            At the beginning of 2019 I was in a low place, stuck in a career I
+            At the beginning of 2019 I was stuck in a career I
             wasn't enjoying and faced with the failure of a company I had put my
             all into for several years. I was looking for a way forward.{" "}
           </p>
