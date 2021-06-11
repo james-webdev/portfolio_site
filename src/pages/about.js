@@ -44,10 +44,9 @@ const About = () => {
           </p>
 
           <p className="text-md sm:text-xl mt-5">
-            After 14 years in Paris I am now back in Surrey, where I grew up,
-            and looking for my next role. Outside of work I enjoy road biking
-            and reading. Last year I wrote a short dystopian novel set in the
-            22nd century.
+            After 14 years in Paris I am now back in the UK and looking for my
+            next challenge. Outside of work I enjoy road biking and reading.
+            Last year I wrote a short dystopian novel set in the 22nd century.
           </p>
         </div>
       </div>
