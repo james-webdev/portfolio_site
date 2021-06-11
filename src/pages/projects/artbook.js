@@ -18,36 +18,56 @@ const ArtBook = () => {
           </div>
           <div className="mt-5">
             <div className="flex w-1/2 justify-start">
-              <div>
+              <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
                   TYPE
                 </h2>
-                <p className="p-1 text-xs 2xl:text-2xl">
-                  something goes here and it needs to wrap around I think
+                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
+                  Individual
                 </p>
               </div>
-              <div>
+              <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
                   STACK
                 </h2>
-                <p className="p-1 text-xs 2xl:text-2xl">
-                  something goes here and it needs to wrap around I think
+                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
+                  <ul>
+                    <li>React</li>
+                    <li>MongoDB</li>
+                    <li>Tailwind CSS</li>
+                    <li>Express</li>
+                    <li>Node</li>
+                    <li>Digital Ocean</li>
+                  </ul>
                 </p>
               </div>
-              <div>
+              <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
                   CODE
                 </h2>
-                <p className="p-1 text-xs 2xl:text-2xl">
-                  something goes here and it needs to wrap around I think
-                </p>
+                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
+                  <a
+                    className="textSiteGreen"
+                    href="https://github.com/james-webdev/MERN_SocialNetwork_React_Front"
+                  >
+                    Front
+                  </a>
+                  <a
+                    className="textSiteGreen mt-1"
+                    href="https://github.com/james-webdev/MERN_SocialNetwork_Node_Back"
+                  >
+                    Back
+                  </a>
+                </div>
               </div>
-              <div>
+              <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
                   LIVE
                 </h2>
-                <p className="p-1 text-xs 2xl:text-2xl">
-                  something goes here and it needs to wrap around I think
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+                  <a className="textSiteGreen" href="http://artbook.live/">
+                    View Site
+                  </a>
                 </p>
               </div>
             </div>
