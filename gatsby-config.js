@@ -2,6 +2,12 @@ module.exports = {
   siteMetadata: {
     title: "My_Portfolio_Site",
   },
-  plugins: [],
-  plugins: ["gatsby-plugin-postcss"],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-postcss`,
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+  ],
 };

@@ -146,7 +146,7 @@ const Main = () => {
           <h2>I use React to build cool things on the web.</h2>
         </div>
       </BlobWrapper>
-      <div className="mb-40 mt-28 smallprojectsloop">
+      <div className="mb-14 mt-10 smallprojectsloop">
         <TextLooper />
       </div>
     </div>

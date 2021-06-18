@@ -1,6 +1,10 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import ArtBookPic from "../../images/ArtBookDesktopWelcome.png";
+import IFOCOP from "../../images/ifocop.png";
+import ReactLogo from "../../images/react.png";
+import TailwindLogo from "../../images/tailwind.png";
+import MENLogo from "../../images/men.png";
 
 const ArtBook = () => {
   return (
@@ -17,14 +21,16 @@ const ArtBook = () => {
             </p>{" "}
           </div>
           <div className="mt-5">
-            <div className="flex w-1/2 justify-start">
+            <div className="flex w-full justify-start">
               <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
-                  TYPE
+                  SCHOOL
                 </h2>
-                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
-                  Individual
-                </p>
+                <div className="flex justify-center items-center">
+                  <a href="https://www.ifocop.fr/">
+                    <img className="w-20" src={IFOCOP} alt="" />
+                  </a>
+                </div>
               </div>
               <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
@@ -50,13 +56,13 @@ const ArtBook = () => {
                     className="textSiteGreen"
                     href="https://github.com/james-webdev/MERN_SocialNetwork_React_Front"
                   >
-                    Front
+                    Front-end
                   </a>
                   <a
                     className="textSiteGreen mt-1"
                     href="https://github.com/james-webdev/MERN_SocialNetwork_Node_Back"
                   >
-                    Back
+                    Back-end
                   </a>
                 </div>
               </div>
@@ -100,18 +106,19 @@ const ArtBook = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex sm:flex-row justify-content items-center mt-5">
-            <div className="w-1/2 flex justify-center items-center">
-              <p className="p-2">ICON</p>
-              <p className="p-2">ICON</p>
+          <div className="border border-black flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
+            <div className="border border-black w-1/2 flex justify-center items-center m-3">
+              <img className="w-24 m-2" src={ReactLogo} alt="" />
+              <img className="w-24 m-2" src={TailwindLogo} alt="" />
+              {/* <img className="w-32 m-2" src={MENLogo} alt="" /> */}
             </div>
-            <div className="w-full sm:w-1/2 mt-5">
+            <div className="border border-black w-full sm:w-1/2 mt-5 m-3">
               <div>
-                <h2 className="font-bold md:text-xl 2xl:text-2xl">
+                <h2 className="border border-black font-bold md:text-xl 2xl:text-2xl">
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="max-w-4xl 2xl:text-2xl mt-3">
+              <p className="border border-black max-w-4xl 2xl:text-2xl mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
                 asperiores vitae consequatur unde consectetur ducimus eos, quam
                 doloremque repellat tenetur eaque numquam nesciunt nobis ipsum

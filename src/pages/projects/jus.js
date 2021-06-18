@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import JusPic from "../../images/Jus.png";
+import AFPA from "../../images/afpa.png";
+
 
 const Jus = () => {
   return (
@@ -20,11 +22,11 @@ const Jus = () => {
             <div className="flex w-1/2 justify-start">
               <div>
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
-                  TYPE
+                  SCHOOL
                 </h2>
-                <p className="p-1 text-xs 2xl:text-2xl">
-                  something goes here and it needs to wrap around I think
-                </p>
+                <a href="https://www.afpa.fr/">
+                  <img className="w-20" src={AFPA} alt="" />
+                </a>
               </div>
               <div>
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
@@ -37,14 +39,6 @@ const Jus = () => {
               <div>
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
                   CODE
-                </h2>
-                <p className="p-1 text-xs 2xl:text-2xl">
-                  something goes here and it needs to wrap around I think
-                </p>
-              </div>
-              <div>
-                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
-                  LIVE
                 </h2>
                 <p className="p-1 text-xs 2xl:text-2xl">
                   something goes here and it needs to wrap around I think
@@ -82,8 +76,8 @@ const Jus = () => {
           </div>
           <div className="flex flex-col sm:flex sm:flex-row justify-content items-center mt-5">
             <div className="w-1/2 flex justify-center items-center">
-              <p className="p-2">ICON</p>
-              <p className="p-2">ICON</p>
+              <img src="" alt="" />
+              <img src="" alt="" />
             </div>
             <div className="w-full sm:w-1/2 mt-5">
               <div>
