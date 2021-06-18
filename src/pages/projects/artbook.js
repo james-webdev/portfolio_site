@@ -1,6 +1,7 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../../components/Layout";
-import ArtBookPic from "../../images/ArtBookDesktopWelcome.png";
+// import ArtBookPic from "../../images/ArtBookDesktopWelcome.png";
 import IFOCOP from "../../images/ifocop.png";
 import ReactLogo from "../../images/react.png";
 import TailwindLogo from "../../images/tailwind.png";
@@ -32,7 +33,11 @@ const ArtBook = () => {
                 </h2>
                 <div className="flex justify-center items-center">
                   <a href="https://www.ifocop.fr/">
-                    <img className="shadow-lg w-20 rounded" src={IFOCOP} alt="" />
+                    <img
+                      className="shadow-lg w-20 rounded"
+                      src={IFOCOP}
+                      alt="Ifocop logo"
+                    />
                   </a>
                 </div>
               </div>
@@ -83,6 +88,12 @@ const ArtBook = () => {
             </div>
           </div>
           <div className="ml-10 mr-10 mt-10 shadow-lg">
+            <StaticImage
+              className="shadow-lg w-20 rounded"
+              src="../images/jsnow.png"
+              placeholder="blurred"
+              alt="Artbook page"
+            />
             <img src={JSnow} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
@@ -114,6 +125,18 @@ const ArtBook = () => {
             <div className="w-1/2 flex justify-center items-center m-3">
               <img className="w-24 m-2" src={ReactLogo} alt="" />
               <img className="w-24 m-2" src={TailwindLogo} alt="" />
+              <StaticImage
+                className="shadow-lg rounded w-24 m-2"
+                src="../../images/react.png"
+                placeholder="blurred"
+                alt="react logo"
+              />
+              <StaticImage
+                className="shadow-lg rounded w-24 m-2"
+                src="../../images/tailwind.png"
+                placeholder="blurred"
+                alt="tailwind logo"
+              />
               {/* <img className="w-32 m-2" src={MENLogo} alt="" /> */}
             </div>
             <div className="w-full sm:w-1/2 mt-5 m-3">

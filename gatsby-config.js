@@ -3,6 +3,12 @@ module.exports = {
     title: "My_Portfolio_Site",
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-source-filesystem`,
+  ],
+  plugins: [
     {
       resolve: `gatsby-plugin-postcss`,
     },
