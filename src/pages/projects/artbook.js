@@ -28,8 +28,9 @@ const ArtBook = () => {
               >
                 European Qualifications Framework).
               </a>
-              &nbsp;It is a social network web and mobile web application where users
-              can share images of art they like. It was inspired by Instagram.
+              &nbsp;It is a social network web and mobile web application where
+              users can share images of art they like. It was inspired by
+              Instagram.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -136,7 +137,7 @@ const ArtBook = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
-            <div className="w-1/2 flex justify-center items-center m-3">
+            <div className="w-1/2 flex flex-col xl:flex xl:flex-row sm:mt-10 justify-center items-center m-3">
               <img className="w-24 m-3" src={ReactLogo} alt="" />
               <img className="w-56 m-3" src={TailwindLogo} alt="" />
               {/* <StaticImage
