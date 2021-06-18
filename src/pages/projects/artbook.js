@@ -152,11 +152,9 @@ const ArtBook = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-2xl mt-3">
-                I used a pre-coded API for the back-end in Node, Express and
-                Mongo DB (though I did make some additions in particular adding
-                code to delete all Posts from the database on User delete). The
-                front-end I built myself in React with Hooks and Axios. I used
-                Tailwind CSS for the styling.
+                The back-end is in Node, Express and Mongo DB. The front-end I
+                built in React with Hooks and Axios to connect to the back-end
+                API. I used Tailwind CSS for the styling.
               </p>
             </div>
           </div>
