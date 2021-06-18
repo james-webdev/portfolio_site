@@ -26,7 +26,7 @@ const ArtBook = () => {
                 className="textSiteGreen"
                 href="https://en.wikipedia.org/wiki/European_Qualifications_Framework"
               >
-                European Qualifications Framework).
+                EQF).
               </a>
               &nbsp;It is a social network web and mobile web application where
               users can share images of art they like. It was inspired by
@@ -137,8 +137,8 @@ const ArtBook = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
-            <div className="w-1/2 flex flex-col xl:flex xl:flex-row sm:mt-10 justify-center items-center m-3">
-              <img className="w-24 m-3" src={ReactLogo} alt="" />
+            <div className="w-1/2 flex flex-col xl:flex xl:flex-row mt-4 sm:mt-10 justify-center items-center m-3">
+              <img className="w-14 sm:w-24 m-3" src={ReactLogo} alt="" />
               <img className="w-56 m-3" src={TailwindLogo} alt="" />
               {/* <StaticImage
                 className="shadow-lg rounded w-24 m-2"
