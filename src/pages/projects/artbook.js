@@ -84,12 +84,14 @@ const ArtBook = () => {
                     View Site
                   </a>
                 </p>
-                <p className="p-1 text-xs font-semibold 2xl:text-2xl">
-                  Guest login: guest@example.com
-                </p>
-                <p className="p-1 text-xs font-semibold 2xl:text-2xl">
-                  Password: 5678
-                </p>
+                <div className="hidden sm:block">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                    Guest login: guest@example.com
+                  </p>
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                    Password: 5678
+                  </p>
+                </div>
               </div>
             </div>
           </div>
