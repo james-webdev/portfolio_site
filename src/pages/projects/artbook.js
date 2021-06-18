@@ -84,16 +84,22 @@ const ArtBook = () => {
                     View Site
                   </a>
                 </p>
+                <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                  Guest login: guest@example.com
+                </p>
+                <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                  Password: 5678
+                </p>
               </div>
             </div>
           </div>
           <div className="ml-10 mr-10 mt-10 shadow-lg">
-            <StaticImage
+            {/* <StaticImage
               className="shadow-lg w-20 rounded"
               src="../images/jsnow.png"
               placeholder="blurred"
               alt="Artbook page"
-            />
+            /> */}
             <img src={JSnow} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
@@ -149,8 +155,8 @@ const ArtBook = () => {
                 I used a pre-coded API for the back-end in Node, Express and
                 Mongo DB (though I did make some additions in particular adding
                 code to delete all Posts from the database on User delete). The
-                front-end I built myself in React with Hooks and Axios to connect to
-                the API. I used Tailwind CSS for the styling.
+                front-end I built myself in React with Hooks and Axios. I used
+                Tailwind CSS for the styling.
               </p>
             </div>
           </div>
@@ -184,7 +190,7 @@ const ArtBook = () => {
             <img className="shadow-lg" src={FlowerFarmer} alt="" />
           </div> */}
           <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
-            <img className="w-2/3 shadow-lg" src={Users} alt="" />
+            <img className="w-full shadow-lg" src={Users} alt="" />
           </div>
           <div className="flex flex-col justify-center items-center mt-10 w-full sm:w-1/2">
             <div>
