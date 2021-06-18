@@ -26,10 +26,10 @@ const ArtBook = () => {
                 className="textSiteGreen"
                 href="https://en.wikipedia.org/wiki/European_Qualifications_Framework"
               >
-                EQF).
+                EQF
               </a>
-              &nbsp;It is a social network web and mobile web application where
-              users can share images of art they like. It was inspired by
+              ).&nbsp;It is a social network web and mobile web application
+              where users can share images of art they like. It was inspired by
               Instagram.
             </p>{" "}
           </div>
@@ -42,7 +42,7 @@ const ArtBook = () => {
                 <div className="flex justify-center items-center">
                   <a href="https://www.ifocop.fr/">
                     <img
-                      className="shadow-lg w-20 rounded"
+                      className="shadow-md w-20 rounded"
                       src={IFOCOP}
                       alt="Ifocop logo"
                     />
