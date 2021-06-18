@@ -19,10 +19,10 @@ const ArtBook = () => {
           <h1 className="font-bold text-3xl">ArtBook</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
             <p className="2xl:text-2xl mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              asperiores omnis ex optio. Sequi iusto nulla sint sed repellat ab
-              itaque laborum in voluptas facilis debitis id nihil, voluptatum
-              alias.
+              This was my final class project at IFOCOP for my Full Stack
+              JavaScript qualification. It is a social network web and mobile
+              web application where users can share images of art they like. It
+              was inspired by Instagram.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -124,7 +124,7 @@ const ArtBook = () => {
           <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
             <div className="w-1/2 flex justify-center items-center m-3">
               <img className="w-24 m-2" src={ReactLogo} alt="" />
-              <img className="w-24 m-2" src={TailwindLogo} alt="" />
+              <img className="w-56 m-2" src={TailwindLogo} alt="" />
               <StaticImage
                 className="shadow-lg rounded w-24 m-2"
                 src="../../images/react.png"
@@ -146,29 +146,26 @@ const ArtBook = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-2xl mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
-                asperiores vitae consequatur unde consectetur ducimus eos, quam
-                doloremque repellat tenetur eaque numquam nesciunt nobis ipsum
-                alias quo illo, et aliquid.
+                I used a pre-coded API for the back-end in Node, Express and
+                Mongo DB (though I did make some additions in particular adding
+                code to delete all Posts from the database on User delete). The
+                front-end I built myself in React with Hooks and Axios to connect to
+                the API. I used Tailwind CSS for the styling.
               </p>
             </div>
           </div>
           <div className="mt-10 ">
             <div className="flex flex-col justify-center items-center sm:flex sm:flex-row">
               <img
-                className="sm:w-1/3 m-3 shadow-lg"
+                className="sm:w-1/4 m-3 shadow-lg"
                 src={JSnowMobile}
                 alt=""
               />
-              <img
-                className="sm:w-1/3 mn-3 shadow-lg"
-                src={FaveMobile}
-                alt=""
-              />
+              <img className="sm:w-1/4 m-3 shadow-lg" src={FaveMobile} alt="" />
             </div>
-            <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
+            {/* <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
               <img className="w-2/3 shadow-lg" src={Users} alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col justify-center items-center mt-10">
             <div>
@@ -183,8 +180,11 @@ const ArtBook = () => {
               alias quo illo, et aliquid.
             </p>
           </div>
-          <div className="ml-10 mr-10 mt-10 flex justify-center items-center">
+          {/* <div className="ml-10 mr-10 mt-10 flex justify-center items-center">
             <img className="shadow-lg" src={FlowerFarmer} alt="" />
+          </div> */}
+          <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
+            <img className="w-2/3 shadow-lg" src={Users} alt="" />
           </div>
           <div className="flex flex-col justify-center items-center mt-10 w-full sm:w-1/2">
             <div>
