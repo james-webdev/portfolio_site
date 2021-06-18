@@ -4,7 +4,11 @@ import ArtBookPic from "../../images/ArtBookDesktopWelcome.png";
 import IFOCOP from "../../images/ifocop.png";
 import ReactLogo from "../../images/react.png";
 import TailwindLogo from "../../images/tailwind.png";
-import MENLogo from "../../images/men.png";
+import JSnow from "../../images/jsnow.png";
+import JSnowMobile from "../../images/mobileJS.png";
+import FaveMobile from "../../images/mobileFave.png";
+import FlowerFarmer from "../../images/FlowerFarmer.png";
+import Users from "../../images/Users.png";
 
 const ArtBook = () => {
   return (
@@ -24,11 +28,11 @@ const ArtBook = () => {
             <div className="flex w-full justify-start">
               <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
-                  SCHOOL
+                  WHERE
                 </h2>
                 <div className="flex justify-center items-center">
                   <a href="https://www.ifocop.fr/">
-                    <img className="w-20" src={IFOCOP} alt="" />
+                    <img className="shadow-lg w-20 rounded" src={IFOCOP} alt="" />
                   </a>
                 </div>
               </div>
@@ -78,8 +82,8 @@ const ArtBook = () => {
               </div>
             </div>
           </div>
-          <div className="ml-10 mr-10 mt-10">
-            <img src={ArtBookPic} alt="" />
+          <div className="ml-10 mr-10 mt-10 shadow-lg">
+            <img src={JSnow} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
             <div className="">
@@ -106,19 +110,19 @@ const ArtBook = () => {
               </p>
             </div>
           </div>
-          <div className="border border-black flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
-            <div className="border border-black w-1/2 flex justify-center items-center m-3">
+          <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
+            <div className="w-1/2 flex justify-center items-center m-3">
               <img className="w-24 m-2" src={ReactLogo} alt="" />
               <img className="w-24 m-2" src={TailwindLogo} alt="" />
               {/* <img className="w-32 m-2" src={MENLogo} alt="" /> */}
             </div>
-            <div className="border border-black w-full sm:w-1/2 mt-5 m-3">
+            <div className="w-full sm:w-1/2 mt-5 m-3">
               <div>
-                <h2 className="border border-black font-bold md:text-xl 2xl:text-2xl">
+                <h2 className="font-bold md:text-xl 2xl:text-2xl">
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="border border-black max-w-4xl 2xl:text-2xl mt-3">
+              <p className="max-w-4xl 2xl:text-2xl mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
                 asperiores vitae consequatur unde consectetur ducimus eos, quam
                 doloremque repellat tenetur eaque numquam nesciunt nobis ipsum
@@ -128,11 +132,19 @@ const ArtBook = () => {
           </div>
           <div className="mt-10 ">
             <div className="flex flex-col justify-center items-center sm:flex sm:flex-row">
-              <img className="sm:w-1/3 m-3" src={ArtBookPic} alt="" />
-              <img className="sm:w-1/3 mn-3" src={ArtBookPic} alt="" />
+              <img
+                className="sm:w-1/3 m-3 shadow-lg"
+                src={JSnowMobile}
+                alt=""
+              />
+              <img
+                className="sm:w-1/3 mn-3 shadow-lg"
+                src={FaveMobile}
+                alt=""
+              />
             </div>
             <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
-              <img className="w-2/3" src={ArtBookPic} alt="" />
+              <img className="w-2/3 shadow-lg" src={Users} alt="" />
             </div>
           </div>
           <div className="flex flex-col justify-center items-center mt-10">
@@ -149,7 +161,7 @@ const ArtBook = () => {
             </p>
           </div>
           <div className="ml-10 mr-10 mt-10 flex justify-center items-center">
-            <img src={ArtBookPic} alt="" />
+            <img className="shadow-lg" src={FlowerFarmer} alt="" />
           </div>
           <div className="flex flex-col justify-center items-center mt-10 w-full sm:w-1/2">
             <div>
