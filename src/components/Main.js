@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import TextLooper from "../components/TextLooper";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 const BlobWrapper = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Poppins:700");
@@ -139,11 +141,15 @@ const Main = () => {
           </svg>
         </div> */}
         <div className="h-96 text-sm sm:text-2xl flex flex-col justify-center items-center text-center">
-          <h1 className="text-xl sm:text-3xl">
-            Hi I'm James. I'm a Front End Developer.
-          </h1>
+          <ScrollAnimation animateIn="animate__fadeInLeft">
+            <h1 className="text-xl sm:text-4xl">
+              Hi I'm James. I'm a Front End Developer.
+            </h1>
+          </ScrollAnimation>
           <br />
-          <h2>I use React to build cool things on the web.</h2>
+          <ScrollAnimation animateIn="animate__fadeInLeft">
+            <h2 className="text-md sm:text-2xl">I use React to build cool things on the web.</h2>
+          </ScrollAnimation>
         </div>
       </BlobWrapper>
       <div className="mb-14 mt-10 smallprojectsloop">

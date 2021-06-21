@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../../components/Layout";
-// import ArtBookPic from "../../images/ArtBookDesktopWelcome.png";
 import IFOCOP from "../../images/ifocop.png";
 import ReactLogo from "../../images/react.png";
 import TailwindLogo from "../../images/tailwind.png";
@@ -11,6 +11,10 @@ import FaveMobile from "../../images/mobileFave.png";
 import Mobile from "../../images/mobile.png";
 import FlowerFarmer from "../../images/FlowerFarmer.png";
 import Users from "../../images/Users.png";
+import Pictionary from "../../images/WebsocketsDesktop.png";
+import Guardian from "../../images/GuardianDesktop.png";
+import Chatter from "../../images/ChatterDesktop.png";
+import Jus from "../../images/Jus.png";
 
 const ArtBook = () => {
   return (
@@ -42,7 +46,7 @@ const ArtBook = () => {
                 <div className="flex justify-center items-center">
                   <a href="https://www.ifocop.fr/formations-metiers/web-digital/formation-developpeur-full-stack-js/">
                     <img
-                      className="shadow-md w-20 rounded transform transition duration-300 hover:scale-105"
+                      className="shadow-md w-14 rounded transform transition duration-300 hover:scale-105"
                       src={IFOCOP}
                       alt="Ifocop logo"
                     />
@@ -122,8 +126,8 @@ const ArtBook = () => {
               <div className="">
                 <p className="max-w-4xl 2xl:text-3xl mt-3">
                   We were left free to use the frameworks we wanted in this
-                  project. I chose React because I can see it is very demanded
-                  in todays market and I wanted to develop my skills.
+                  project. I chose React because I can see it is very sought
+                  after in today's market and I wanted to develop my skills.
                 </p>
               </div>
             </div>
@@ -226,6 +230,104 @@ const ArtBook = () => {
               parameters for larger image file upload.
             </p>
           </div> */}
+          <div>
+            <h2 className="font-bold mt-10 sm:mt-20 md:text-xl 2xl:text-3xl">
+              Other Projects
+            </h2>
+          </div>
+          <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
+            <Link to="/projects/guardian">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Guardian} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Worktools Website
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A website in React with Gatsby and custom CSS animations
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+            <Link to="/projects/pictionary">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Pictionary} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Websockets Pictionary
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A pictionary game using P5.js and websockets with a MongoDB
+                  database
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/jus">
+              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Jus} alt="" />
+              </div>
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Boutique Jus
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  An E-commerce application in PHP and Bootstrap with a MySQL
+                  database
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/jus"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/chatter">
+              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Chatter} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
+                  Chatter Website
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A website with React and Gatsby
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
       </Layout>
     </>

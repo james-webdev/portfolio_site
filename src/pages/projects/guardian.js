@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Layout from "../../components/Layout";
 import GuardianPic from "../../images/GuardianDesktop.png";
 import Worktools from "../../images/worktools.png";
@@ -8,6 +9,10 @@ import GatsbyLogo from "../../images/gatsby.png";
 import MobileOne from "../../images/guardianmob1.png";
 import MobileTwo from "../../images/guardianmob2.png";
 import MobileThree from "../../images/guardianmob3.png";
+import Artbook from "../../images/ArtBookDesktopWelcome.png";
+import Pictionary from "../../images/WebsocketsDesktop.png";
+import Chatter from "../../images/ChatterDesktop.png";
+import Jus from "../../images/Jus.png";
 
 const Guardian = () => {
   return (
@@ -33,7 +38,7 @@ const Guardian = () => {
                 <div className="flex justify-center items-center">
                   <a href="https://guardian.tech/">
                     <img
-                      className="w-20 rounded transform transition duration-500 hover:scale-105"
+                      className="w-14 rounded transform transition duration-500 hover:scale-105"
                       src={Worktools}
                       alt="Guardian logo"
                     />
@@ -163,6 +168,103 @@ const Guardian = () => {
               able to improve my skills in using Tailwind CSS and Git version
               control and React.
             </p>
+          </div>
+          <div>
+            <h2 className="font-bold mt-10 sm:mt-20 md:text-2xl 2xl:text-3xl">
+              Other Projects
+            </h2>
+          </div>
+          <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
+            <Link to="/projects/guardian">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Artbook} alt="" />
+              </div>
+
+              <div className="text-left">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">Artbook</p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A MERN social network allowing you to share art with your
+                  friends
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/artbook"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+            <Link to="/projects/pictionary">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Pictionary} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Websockets Pictionary
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A pictionary game using P5.js and websockets with a MongoDB
+                  database
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/jus">
+              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Jus} alt="" />
+              </div>
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                  Boutique Jus
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  An E-commerce application in PHP and Bootstrap with a MySQL
+                  database
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/jus"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/chatter">
+              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Chatter} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
+                  Chatter Website
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A website with React and Gatsby
+                </p>
+                <div className="mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </Layout>
