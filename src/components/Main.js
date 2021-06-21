@@ -148,7 +148,7 @@ const Main = () => {
           </ScrollAnimation>
           <br />
           <ScrollAnimation animateIn="animate__backInLeft">
-            <h2 className="text-md sm:text-2xl">I use React to build cool things on the web.</h2>
+            <h2 className="text-md sm:text-2xl">I use ReactJS to build cool things on the web.</h2>
           </ScrollAnimation>
         </div>
       </BlobWrapper>
