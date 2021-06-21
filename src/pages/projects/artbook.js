@@ -17,9 +17,9 @@ const ArtBook = () => {
     <>
       <Layout>
         <div className="mt-20 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:ml-60 lg:mr-60 mb-28">
-          <h1 className="font-bold text-3xl">ArtBook</h1>
+          <h1 className="font-bold text-3xl 2xl:text-5xl">ArtBook</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
-            <p className="2xl:text-2xl mt-3">
+            <p className="2xl:text-3xl mt-3">
               This was my final class project at IFOCOP for my Full Stack
               JavaScript qualification (equivalent to a Bachelor's Degree in the{" "}
               <a
@@ -36,13 +36,13 @@ const ArtBook = () => {
           <div className="mt-5">
             <div className="flex w-full justify-start">
               <div className="m-1 sm:m-4">
-                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
+                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   WHERE
                 </h2>
                 <div className="flex justify-center items-center">
-                  <a href="https://www.ifocop.fr/">
+                  <a href="https://www.ifocop.fr/formations-metiers/web-digital/formation-developpeur-full-stack-js/">
                     <img
-                      className="shadow-md w-20 rounded"
+                      className="shadow-md w-20 rounded transform transition duration-300 hover:scale-105"
                       src={IFOCOP}
                       alt="Ifocop logo"
                     />
@@ -50,10 +50,10 @@ const ArtBook = () => {
                 </div>
               </div>
               <div className="m-1 sm:m-4">
-                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
+                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   STACK
                 </h2>
-                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
+                <p className="p-1 text-sm font-semibold 2xl:text-3xl">
                   <ul>
                     <li>React</li>
                     <li>MongoDB</li>
@@ -65,10 +65,10 @@ const ArtBook = () => {
                 </p>
               </div>
               <div className="m-1 sm:m-4">
-                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
+                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   CODE
                 </h2>
-                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
+                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-3xl">
                   <a
                     className="textSiteGreen"
                     href="https://github.com/james-webdev/MERN_SocialNetwork_React_Front"
@@ -84,19 +84,19 @@ const ArtBook = () => {
                 </div>
               </div>
               <div className="m-1 sm:m-4">
-                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-2xl">
+                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   LIVE
                 </h2>
-                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+                <p className="p-1 text-sm font-bold 2xl:text-3xl">
                   <a className="textSiteGreen" href="http://artbook.live/">
                     View Site
                   </a>
                 </p>
                 <div className="hidden sm:block">
-                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
                     Guest login: guest@example.com
                   </p>
-                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
                     Password: 5678
                   </p>
                 </div>
@@ -115,12 +115,12 @@ const ArtBook = () => {
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
             <div className="">
               <div>
-                <h2 className="font-bold md:text-xl 2xl:text-2xl">
+                <h2 className="font-bold md:text-xl 2xl:text-3xl">
                   Project Purpose and Goal
                 </h2>
               </div>
               <div className="">
-                <p className="max-w-4xl 2xl:text-2xl mt-3">
+                <p className="max-w-4xl 2xl:text-3xl mt-3">
                   We were left free to use the frameworks we wanted in this
                   project. I chose React because I can see it is very demanded
                   in todays market and I wanted to develop my skills.
@@ -128,7 +128,7 @@ const ArtBook = () => {
               </div>
             </div>
             <div className="">
-              <p className="hidden md:block md:invisible max-w-4xl 2xl:text-2xl mt-3">
+              <p className="hidden md:block md:invisible max-w-4xl 2xl:text-3xl mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
                 asperiores vitae consequatur unde consectetur ducimus eos, quam
                 doloremque repellat tenetur eaque numquam nesciunt nobis ipsum
@@ -156,11 +156,11 @@ const ArtBook = () => {
             </div>
             <div className="w-full sm:w-1/2 mt-5 m-3">
               <div>
-                <h2 className="font-bold md:text-xl 2xl:text-2xl">
+                <h2 className="font-bold md:text-xl 2xl:text-3xl">
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="max-w-4xl 2xl:text-2xl mt-3">
+              <p className="max-w-4xl 2xl:text-3xl mt-3">
                 The back-end is in Node, Express and Mongo DB. The front-end is
                 in React with Hooks and Axios to connect to the API. I used
                 Tailwind CSS for styling.
@@ -168,14 +168,14 @@ const ArtBook = () => {
             </div>
           </div>
           <div className="mt-10">
-            <div className="flex flex-col justify-center items-center sm:flex sm:flex-row">
+            <div className="flex flex-col gap-6 justify-center items-center sm:flex sm:flex-row">
               <img
                 className="w-56 sm:w-1/4 m-3 shadow-lg"
                 src={JSnowMobile}
                 alt=""
               />
               <img
-                className="hidden lg:block w-1/8 sm:w-1/4 m-3 shadow-lg"
+                className="hidden lg:block w-56 sm:w-1/4 m-3 shadow-lg"
                 src={Mobile}
                 alt=""
               />
@@ -191,11 +191,11 @@ const ArtBook = () => {
           </div>
           <div className="flex flex-col justify-center items-center mb-8 mt-10 w-full sm:w-1/2">
             <div>
-              <h2 className="font-bold md:text-xl 2xl:text-2xl">
+              <h2 className="font-bold md:text-xl 2xl:text-3xl">
                 Lessons Learned
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-2xl mt-3">
+            <p className="max-w-4xl 2xl:text-3xl mt-3">
               I really honed my React skills in this project. In particular for
               using hooks. I used the useState hook and the useEffect hook in
               nearly every component. I was able to learn authentication with
@@ -215,11 +215,11 @@ const ArtBook = () => {
           </div>
           <div className="flex flex-col justify-center items-center mt-10">
             <div>
-              <h2 className="font-bold md:text-xl 2xl:text-2xl">
+              <h2 className="font-bold md:text-xl 2xl:text-3xl">
                 Problems and thought processes
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-2xl mt-3">
+            <p className="max-w-4xl 2xl:text-3xl mt-3">
               One of the most tricky things was deploying the app on Digital
               Ocean as it was not something I had done before. I had an issue
               with the size of the image I was uploading, I had to change some

@@ -19,7 +19,7 @@ const Projects = () => {
           <div>
             <p className="smallprojectstext text-md mt-3 ">
               Take a look at some of the applications and websites I've
-              dedicated my time to
+              dedicated my time to:
             </p>
           </div>
 
@@ -39,7 +39,7 @@ const Projects = () => {
                 <div className="mt-5">
                   <Link
                     className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
+                    to="/projects/artbook"
                   >
                     VIEW PROJECT
                   </Link>

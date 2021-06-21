@@ -95,6 +95,13 @@
   }
 }
 
+@media only screen and (min-width: 1800px) {
+  .largescreentext {
+    font-size: 32px !important;
+  }
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

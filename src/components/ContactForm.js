@@ -40,7 +40,7 @@ const ContactForm = () => {
     <>
       <div className="bgSiteGreen rounded p-4 mt-5 text-center contactForm">
         <div className="text-black">
-          <h1 className="text-4xl">Get in Touch</h1>
+          <h1 className="text-4xl">Get in Touch.</h1>
         </div>
         <form className="" onSubmit={handleOnSubmit}>
           <div className="flex flex-col justify-center items-center">
