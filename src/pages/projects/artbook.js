@@ -198,7 +198,7 @@ const ArtBook = () => {
             <p className="max-w-4xl 2xl:text-2xl mt-3">
               I really honed my React skills in this project. In particular for
               using hooks. I used the useState hook and the useEffect hook in
-              nearly every component. I was able to learn authenticatioin with
+              nearly every component. I was able to learn authentication with
               JWT web tokens and how to store them in local storage. It also
               helped me to understand better using Axios to connect to an API
               and observe the request response cycle in the terminal. I also was

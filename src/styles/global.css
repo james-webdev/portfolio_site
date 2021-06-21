@@ -73,7 +73,12 @@
   }
 
   .smallprojects {
-    width: 280px !important;
+    width: 230px !important;
+    background-color: #01bbae;
+  }
+
+  .smallprojectstext {
+    width: 240px !important;
   }
 }
 

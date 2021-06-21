@@ -53,7 +53,7 @@ const BlobWrapper = styled.div`
       position: absolute;
       top: 0;
       left: 0;
-      fill: #01bbae;
+      fill: pink;
       width: 15vmax;
       z-index: -1;
       transform-origin: 50% 50%;

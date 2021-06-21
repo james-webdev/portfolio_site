@@ -29,6 +29,7 @@ const TextWrapper = styled.div`
 const TextLooper = () => {
   return (
     <div className="h-60 text-2xl p-1 font-bold flex flex-col sm:flex-row items-center justify-center">
+      <h2 className="font-semibold">Some tools I use:&nbsp;</h2>
       <TextLoop className="z-0 bgSiteGreen p-1 text-2xl text-white rounded-lg">
         <p className="ml-2 z-0 mt-2">React.js.</p>
         <p className="ml-2 z-0 mt-2">JavaScript ES6.</p>
