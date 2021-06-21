@@ -175,7 +175,7 @@ const Guardian = () => {
             </h2>
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
-            <Link to="/projects/guardian">
+            <Link to="/projects/artbook">
               <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Artbook} alt="" />
               </div>
@@ -212,7 +212,7 @@ const Guardian = () => {
                 <div className="mt-5">
                   <Link
                     className="hover:underline font-semibold text-md"
-                    to="/projects/chatter"
+                    to="/projects/pictionary"
                   >
                     VIEW PROJECT
                   </Link>

@@ -141,16 +141,14 @@ const Main = () => {
           </svg>
         </div> */}
         <div className="h-96 text-sm sm:text-2xl flex flex-col justify-center items-center text-center">
-          <ScrollAnimation animateIn="animate__fadeInLeft">
+          <ScrollAnimation animateIn="animate__backInLeft">
             <h1 className="text-xl sm:text-4xl">
               Hi I'm James. I'm a Front End Developer.
             </h1>
           </ScrollAnimation>
           <br />
-          <ScrollAnimation animateIn="animate__fadeInRight">
-            <h2 className="text-md sm:text-2xl">
-              I use React to build cool things on the web.
-            </h2>
+          <ScrollAnimation animateIn="animate__backInLeft">
+            <h2 className="text-md sm:text-2xl">I use React to build cool things on the web.</h2>
           </ScrollAnimation>
         </div>
       </BlobWrapper>
