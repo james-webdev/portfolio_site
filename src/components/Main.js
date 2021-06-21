@@ -147,8 +147,10 @@ const Main = () => {
             </h1>
           </ScrollAnimation>
           <br />
-          <ScrollAnimation animateIn="animate__fadeInLeft">
-            <h2 className="text-md sm:text-2xl">I use React to build cool things on the web.</h2>
+          <ScrollAnimation animateIn="animate__fadeInRight">
+            <h2 className="text-md sm:text-2xl">
+              I use React to build cool things on the web.
+            </h2>
           </ScrollAnimation>
         </div>
       </BlobWrapper>
