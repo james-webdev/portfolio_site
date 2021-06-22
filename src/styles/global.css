@@ -79,6 +79,7 @@
 
   .smallprojectstext {
     width: 240px !important;
+    font-size: small;
   }
 }
 

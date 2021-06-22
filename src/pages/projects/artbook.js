@@ -242,7 +242,7 @@ const ArtBook = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Worktools Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -264,7 +264,7 @@ const ArtBook = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Websockets Pictionary
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -287,7 +287,7 @@ const ArtBook = () => {
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Boutique Jus
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -311,7 +311,7 @@ const ArtBook = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
                   Chatter Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">

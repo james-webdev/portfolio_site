@@ -13,11 +13,11 @@ const Projects = () => {
     <>
       <Layout>
         <div className="ml-5 mr-5 md:ml-60 md:mr-60 ">
-          <div className="text-3xl font-semibold mt-32 ">
+          <div className="text-xl sm:text-3xl font-semibold mt-32 ">
             What I've been working on
           </div>
           <div>
-            <p className="smallprojectstext text-md mt-3 ">
+            <p className="smallprojectstext text-md mt-3">
               Take a look at some of the applications and websites I've
               dedicated my time to:
             </p>
@@ -29,7 +29,7 @@ const Projects = () => {
                 <img className="smallprojects" src={ArtBook} alt="" />
               </div>
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   ArtBook Social Network
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -38,7 +38,7 @@ const Projects = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/artbook"
                   >
                     VIEW PROJECT
@@ -52,7 +52,7 @@ const Projects = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Worktools Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -60,7 +60,7 @@ const Projects = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/chatter"
                   >
                     VIEW PROJECT
@@ -74,7 +74,7 @@ const Projects = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Websockets Pictionary
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -83,7 +83,7 @@ const Projects = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/chatter"
                   >
                     VIEW PROJECT
@@ -97,7 +97,7 @@ const Projects = () => {
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Boutique Jus
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -106,7 +106,7 @@ const Projects = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/jus"
                   >
                     VIEW PROJECT
@@ -121,7 +121,7 @@ const Projects = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
                   Chatter Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -129,7 +129,7 @@ const Projects = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/chatter"
                   >
                     VIEW PROJECT

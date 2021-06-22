@@ -36,7 +36,7 @@ const Guardian = () => {
                   WHERE
                 </h2>
                 <div className="flex justify-center items-center">
-                  <a href="https://guardian.tech/">
+                  <a href="https://www.linkedin.com/company/work-tools">
                     <img
                       className="w-14 rounded transform transition duration-500 hover:scale-105"
                       src={Worktools}
@@ -181,14 +181,16 @@ const Guardian = () => {
               </div>
 
               <div className="text-left">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">Artbook</p>
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
+                  Artbook
+                </p>
                 <p className="smallprojectstext mt-5 text-md">
                   A MERN social network allowing you to share art with your
                   friends
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/artbook"
                   >
                     VIEW PROJECT
@@ -202,7 +204,7 @@ const Guardian = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Websockets Pictionary
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -211,7 +213,7 @@ const Guardian = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/pictionary"
                   >
                     VIEW PROJECT
@@ -225,7 +227,7 @@ const Guardian = () => {
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 md:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
                   Boutique Jus
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -234,7 +236,7 @@ const Guardian = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/jus"
                   >
                     VIEW PROJECT
@@ -249,7 +251,7 @@ const Guardian = () => {
               </div>
 
               <div className="text-left ">
-                <p className="mt-3 text-2xl font-bold mt-0 sm:mt-10">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
                   Chatter Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
@@ -257,7 +259,7 @@ const Guardian = () => {
                 </p>
                 <div className="mt-5">
                   <Link
-                    className="hover:underline font-semibold text-md"
+                    className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/chatter"
                   >
                     VIEW PROJECT
