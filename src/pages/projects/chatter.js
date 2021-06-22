@@ -36,7 +36,7 @@ const Chatter = () => {
                 <div className="flex justify-center items-center">
                   <a href="https://www.gendall.co.uk/">
                     <img
-                      className="w-14 rounded transform transition duration-500 hover:scale-105"
+                      className="w-10 rounded transform transition duration-300 hover:scale-105"
                       src={Gendall}
                       alt="Gendall logo"
                     />

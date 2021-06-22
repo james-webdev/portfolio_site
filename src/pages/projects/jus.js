@@ -123,8 +123,8 @@ const Jus = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-3xl mt-3">
-                The e-commerce site was coded using in part the code from a blog we had
-                written in class in PHP with a Bootstrap template for the
+                The e-commerce site was coded using in part the code from a blog
+                we had written in class in PHP with a Bootstrap template for the
                 front-end and a MySQL database. The PHP was linked to the
                 database using SQL and I used PHPMyAdmin and WAMP.
               </p>
@@ -146,7 +146,7 @@ const Jus = () => {
               I learnt a lot about the MVC way of building apps in this project.
               I also learnt a great deal about PHP and how to get a front end to
               interact with a database. It gave me a good overview of how apps
-              used to be built before the advent of PHP frameworkds like Laravel
+              used to be built before the advent of PHP frameworks like Laravel
               (which I got to use for 4 months for my OKOS Partners internship)
               or Symfony as our teacher was a bit old school.
             </p>

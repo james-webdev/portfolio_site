@@ -127,8 +127,8 @@ const Guardian = () => {
               </div>
               <p className="max-w-4xl 2xl:text-3xl mt-3">
                 I used React with GatsbyJS, a React-based, GraphQL powered,
-                static site generator. I used Tailwind CSS for styling. It was
-                deployed on AWS.
+                static site generator. I used Tailwind CSS, a utility first CSS
+                framework, for styling. It was deployed on AWS.
               </p>
             </div>
           </div>
@@ -167,7 +167,7 @@ const Guardian = () => {
               I am quite proud of the shield, target and heart animations which
               I built using SVGs provided by the graphic designer. I also was
               able to improve my skills in using Tailwind CSS and Git version
-              control and React.
+              control and of course React.
             </p>
           </div>
           <div>

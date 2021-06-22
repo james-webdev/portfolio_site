@@ -11,9 +11,6 @@ import IFOCOP from "../../images/ifocop.png";
 import NEM from "../../images/nem.png";
 import P5 from "../../images/p5js.png";
 import Socket from "../../images/socket.png";
-import PicMob1 from "../../images/picmob1.png";
-import PicMob2 from "../../images/picmob2.png";
-import PicMob3 from "../../images/picmob3.png";
 
 const Pictionary = () => {
   return (
@@ -33,8 +30,8 @@ const Pictionary = () => {
               >
                 EQF
               </a>
-              ).&nbsp; We had to code from scratch a multi-player game that used
-              the Websockets protocol.
+              ). We had to code from scratch a multi-player game that used the
+              Websockets protocol.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -210,8 +207,9 @@ const Pictionary = () => {
               {" "}
               I learnt a lot about Websockets and also improved my skills with
               Node, Express and MongoDB. It was interesting to to learn more
-              about P5.js and Code Art. I think it is useful in coming up with
-              creative ideas for UIs and improving my CSS animation skills.
+              about P5.js and Code Art. I think it is useful for coming up with
+              creative ideas for user interfaces and improving my CSS animation
+              skills.
             </p>
           </div>
 
