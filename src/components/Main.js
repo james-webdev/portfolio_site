@@ -111,7 +111,7 @@ const BlobWrapper = styled.div`
   @keyframes textcolour {
     0% {
     }
-    8% {
+    38% {
       color: #01bbae;
     }
     65% {
