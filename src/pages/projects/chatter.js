@@ -20,12 +20,11 @@ const Chatter = () => {
     <>
       <Layout>
         <div className="mt-20 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:ml-60 lg:mr-60 mb-28">
-          <h1 className="font-bold text-3xl 2xl:text-5xl">Guardian</h1>
+          <h1 className="font-bold text-3xl 2xl:text-5xl">Chatter Website</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
             <p className="2xl:text-3xl mt-3">
-              I built this site from scratch in React with GatsbyJS for Gendall
-              Design, a web design agency in Falmouth. I worked with a graphic
-              designer for the designs.
+              I built this site from scratch in React with GatsbyJS in 2019 for
+              Gendall Design, a digital design agency in Falmouth.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -53,8 +52,6 @@ const Chatter = () => {
                     <li>React</li>
                     <li>Gatsby</li>
                     <li>Styled Components</li>
-                    <li>Tailwind CSS</li>
-                    <li>AWS</li>
                   </ul>
                 </p>
               </div>
@@ -98,11 +95,10 @@ const Chatter = () => {
               </div>
               <div className="">
                 <p className="max-w-4xl 2xl:text-3xl mt-3">
-                  Worktools has built a web app and desktop app in React and so
-                  wanted a modern website in React to help with their VC funding
-                  round. They wanted it to be in React so as to be able to
-                  possibly reutilise some of the components across their other
-                  apps.
+                  Gendall was creating a company called Chatter which allows
+                  clients to use Alexa voice technology to book holidays. I was
+                  asked to build a site in React from a series of wireframes
+                  their designers had made.
                 </p>
               </div>
             </div>
@@ -129,8 +125,9 @@ const Chatter = () => {
               </div>
               <p className="max-w-4xl 2xl:text-3xl mt-3">
                 I used React with GatsbyJS, a React-based, GraphQL powered,
-                static site generator. I used Tailwind CSS for styling. It was
-                deployed on AWS.
+                static site generator. I used Styled Components, a CSS-in-JS
+                tool that bridges the gap between components and styling. I
+                worked with a graphic designer for the designs.
               </p>
             </div>
           </div>
@@ -163,13 +160,12 @@ const Chatter = () => {
               </h2>
             </div>
             <p className="max-w-4xl 2xl:text-3xl mt-3">
-              I really honed my responsive website skills in this project. It
-              was the first time I'd used CSS grid in addition to FlexBox which
-              I am more familiar with. I also learnt a lot about CSS animations
-              I am quite proud of the shield, target and heart animations which
-              I built using SVGs provided by the graphic designer. I also was
-              able to improve my skills in using Tailwind CSS and Git version
-              control and React.
+              This was my first time using React and I learnt a great deal
+              notably building and linking React components, importing images
+              and animated GIFs and had my first introduction to Hooks. I was
+              able to massively increase my skills in CSS styling, learning
+              Flebox along the way and I honed my skills in getting a website to
+              be responsive. I also improved my skills in Git version control.
             </p>
           </div>
           <div>
