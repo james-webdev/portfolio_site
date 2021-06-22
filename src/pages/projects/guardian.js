@@ -54,6 +54,7 @@ const Guardian = () => {
                     <li>React</li>
                     <li>Gatsby</li>
                     <li>Tailwind CSS</li>
+                    <li>Styled Components</li>
                     <li>AWS</li>
                   </ul>
                 </p>

@@ -142,7 +142,11 @@ const ArtBook = () => {
           </div>
           <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
             <div className="w-1/2 flex flex-col xl:flex xl:flex-row mt-4 sm:mt-10 justify-center items-center m-3">
-              <img className="w-14 sm:w-24 2xl:w-40 m-3" src={ReactLogo} alt="" />
+              <img
+                className="w-14 sm:w-24 2xl:w-40 m-3"
+                src={ReactLogo}
+                alt=""
+              />
               <img className="w-56 2xl:w-96 m-3" src={TailwindLogo} alt="" />
               {/* <StaticImage
                 className="shadow-lg rounded w-24 m-2"
@@ -165,9 +169,9 @@ const ArtBook = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-3xl mt-3">
-                The back-end is in Node, Express and Mongo DB. The front-end is
-                in React with Hooks and Axios to connect to the API. I used
-                Tailwind CSS for styling.
+                The back-end is in Node, Express and Mongo DB in a MVC
+                structure. The front-end is in React with Hooks and Axios to
+                connect to the API. I used Tailwind CSS for styling.
               </p>
             </div>
           </div>
