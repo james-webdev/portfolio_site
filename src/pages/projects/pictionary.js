@@ -234,7 +234,7 @@ const Pictionary = () => {
                   A MERN social network allowing you to share art with your
                   friends
                 </p>
-                <div className="mt-5">
+                <div className="mt-5 hidden sm:block">
                   <Link
                     className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/artbook"
@@ -256,7 +256,7 @@ const Pictionary = () => {
                 <p className="smallprojectstext mt-5 text-md">
                   A website in React with Gatsby and custom CSS animations
                 </p>
-                <div className="mt-5">
+                <div className="mt-5 hidden sm:block">
                   <Link
                     className="hover:underline font-semibold text-md"
                     to="/projects/guardian"
@@ -279,7 +279,7 @@ const Pictionary = () => {
                   An E-commerce application in PHP and Bootstrap with a MySQL
                   database
                 </p>
-                <div className="mt-5">
+                <div className="mt-5 hidden sm:block">
                   <Link
                     className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/jus"
@@ -302,7 +302,7 @@ const Pictionary = () => {
                 <p className="smallprojectstext mt-5 text-md">
                   A website with React and Gatsby
                 </p>
-                <div className="mt-5">
+                <div className="mt-5 hidden sm:block">
                   <Link
                     className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/chatter"
