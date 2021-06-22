@@ -25,7 +25,7 @@ const ContactForm = () => {
     setServerState({ submitting: true, message: true });
     axios({
       method: "post",
-      url: "https://getform.io/f/4a979712-4299-4337-9e90-ef82347d75b3",
+      url: "https://getform.io/f/9aaa861d-daa6-4a48-a3a7-0affa312330c",
       data: new FormData(form),
     })
       .then((r) => {
