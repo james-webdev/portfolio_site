@@ -34,10 +34,7 @@ const Pictionary = () => {
                 EQF
               </a>
               ).&nbsp; We had to code from scratch a multi-player game that used
-              the Websockets protocol with{" "}
-              <a className="textSiteGreen" href="https://socket.io/">
-                Socket.io.
-              </a>{" "}
+              the Websockets protocol.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -123,15 +120,13 @@ const Pictionary = () => {
               </div>
               <div className="">
                 <p className="max-w-4xl 2xl:text-3xl mt-3">
-                  I chose to use{" "}
-                  <a className="textSiteGreen" href="https://p5js.org/">
-                    P5.js
+                  The aim was that a users drawing would be seen by the other
+                  playing across a live websockets connection using{" "}
+                  <a className="textSiteGreen" href="https://socket.io/">
+                    Socket.io.
                   </a>{" "}
-                  a JavaScript library for creative coding as I am interested in
-                  Code Art. The aim was that a users drawing would be
-                  communicated by any other playing across a live websockets
-                  connection permitting them to guess the drawing! I also coded
-                  a Websockets chat so that users could send their guesses.
+                  This would permit them to guess the drawing! I also coded a
+                  Websockets chat so that users could send their guesses.
                 </p>
               </div>
             </div>
@@ -157,11 +152,16 @@ const Pictionary = () => {
                 </h2>
               </div>
               <p className="max-w-4xl md:text-xl 2xl:text-3xl mt-3">
-                The front-end I used the templating language Pug.js. The
-                back-end was in Express and Node with a MongoDB database which I
-                used for user login and sign up and to put the users points in a
-                database. I coded a basic API which I connected to to get the
-                new words. The app is deployed on Heroku.
+                I chose to use{" "}
+                <a className="textSiteGreen" href="https://p5js.org/">
+                  P5.js
+                </a>{" "}
+                a JavaScript library for creative coding as I am interested in
+                Code Art. The front-end I used the templating language Pug.js.
+                The back-end was in Express and Node with a MongoDB database
+                which I used for user login and sign up and to put the users
+                points in a database. I coded a basic API which I connected to
+                to get the new words. The app is deployed on Heroku.
               </p>
             </div>
           </div>

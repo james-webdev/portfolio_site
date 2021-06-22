@@ -142,8 +142,8 @@ const ArtBook = () => {
           </div>
           <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
             <div className="w-1/2 flex flex-col xl:flex xl:flex-row mt-4 sm:mt-10 justify-center items-center m-3">
-              <img className="w-14 sm:w-24 m-3" src={ReactLogo} alt="" />
-              <img className="w-56 m-3" src={TailwindLogo} alt="" />
+              <img className="w-14 sm:w-24 2xl:w-40 m-3" src={ReactLogo} alt="" />
+              <img className="w-56 2xl:w-96 m-3" src={TailwindLogo} alt="" />
               {/* <StaticImage
                 className="shadow-lg rounded w-24 m-2"
                 src="../../images/react.png"
