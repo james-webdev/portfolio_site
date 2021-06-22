@@ -34,12 +34,13 @@ const Projects = () => {
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   A MERN social network allowing you to share art with your
-                  friends
+                  friends.
                 </p>
                 <div className="hidden sm:block mt-5">
                   <Link
                     className="hover:underline font-semibold text-sm sm:text-md"
-                    to="/projects/artbook"y
+                    to="/projects/artbook"
+                    y
                   >
                     VIEW PROJECT
                   </Link>
@@ -56,7 +57,7 @@ const Projects = () => {
                   Worktools Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website in React with Gatsby and custom CSS animations
+                  A website in React with Gatsby and custom CSS animations.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -79,7 +80,7 @@ const Projects = () => {
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   A pictionary game using P5.js and websockets with a MongoDB
-                  database
+                  database.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -102,7 +103,7 @@ const Projects = () => {
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL
-                  database
+                  database.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -125,7 +126,7 @@ const Projects = () => {
                   Chatter Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website with React and Gatsby
+                  A website with React and Gatsby.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link

@@ -246,7 +246,7 @@ const ArtBook = () => {
                   Worktools Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website in React with Gatsby and custom CSS animations
+                  A website in React with Gatsby and custom CSS animations.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -269,7 +269,7 @@ const ArtBook = () => {
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   A pictionary game using P5.js and websockets with a MongoDB
-                  database
+                  database.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -292,7 +292,7 @@ const ArtBook = () => {
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL
-                  database
+                  database.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -315,7 +315,7 @@ const ArtBook = () => {
                   Chatter Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website with React and Gatsby
+                  A website with React and Gatsby.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
