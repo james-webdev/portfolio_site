@@ -229,7 +229,7 @@ const Guardian = () => {
               </div>
               <div className="text-left ">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                  Boutique Jus
+                Juice e-commerce app
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL
