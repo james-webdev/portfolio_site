@@ -176,22 +176,15 @@ const ArtBook = () => {
             </div>
           </div>
           <div className="mt-10">
-            <div className="flex flex-col gap-6 justify-center items-center sm:flex sm:flex-row">
+            <div className="flex flex-col justify-center items-center sm:flex sm:flex-row">
+              <img className="w-56 sm:w-1/3 m-3" src={JSnowMobile} alt="" />
+
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
-                src={JSnowMobile}
-                alt=""
-              />
-              <img
-                className="hidden lg:block w-56 sm:w-1/4 m-3 shadow-lg"
+                className="hidden lg:block w-56 sm:w-1/3 m-3"
                 src={Mobile}
                 alt=""
               />
-              <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
-                src={FaveMobile}
-                alt=""
-              />
+              <img className="w-56 sm:w-1/3 m-3" src={FaveMobile} alt="" />
             </div>
             {/* <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
               <img className="w-2/3 shadow-lg" src={Users} alt="" />
@@ -292,7 +285,7 @@ const ArtBook = () => {
               </div>
               <div className="text-left ">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                Juice e-commerce app
+                  Juice e-commerce app
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL

@@ -133,19 +133,19 @@ const Guardian = () => {
             </div>
           </div>
           <div className="mt-10">
-            <div className="flex flex-col gap-6 md:mt-10 justify-center items-center sm:flex sm:flex-row">
+            <div className="flex flex-col md:mt-10 justify-center items-center sm:flex sm:flex-row">
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
+                className="w-56 sm:w-1/3 m-3"
                 src={MobileOne}
                 alt=""
               />
               <img
-                className="hidden lg:block w-56 sm:w-1/4 m-3 shadow-lg"
+                className="hidden lg:block w-56 sm:w-1/3 m-3"
                 src={MobileThree}
                 alt=""
               />
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
+                className="w-56 sm:w-1/3 m-3"
                 src={MobileTwo}
                 alt=""
               />

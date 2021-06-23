@@ -132,19 +132,19 @@ const Chatter = () => {
             </div>
           </div>
           <div className="mt-10">
-            <div className="flex flex-col gap-6 md:mt-10 justify-center items-center sm:flex sm:flex-row">
+            <div className="flex flex-col md:mt-10 justify-center items-center sm:flex sm:flex-row">
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
+                className="w-56 sm:w-1/3 m-3"
                 src={Chatmob1}
                 alt=""
               />
               <img
-                className="hidden lg:block w-56 sm:w-1/4 m-3 shadow-lg"
+                className="hidden lg:block w-56 sm:w-1/3 m-3"
                 src={Chatmob2}
                 alt=""
               />
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
+                className="w-56 sm:w-1/3 m-3"
                 src={Chatmob3}
                 alt=""
               />
