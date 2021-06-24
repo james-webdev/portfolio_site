@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../../components/Layout";
-import GuardianPic from "../../images/Guardian_Desktop.png";
+import GuardianPic from "../../images/GuardianDesktop.png";
 import Worktools from "../../images/worktools.png";
 import ReactLogo from "../../images/react.png";
 import TailwindLogo from "../../images/tailwind.png";
@@ -9,10 +9,10 @@ import GatsbyLogo from "../../images/gatsby.png";
 import MobileOne from "../../images/guardianmob1.png";
 import MobileTwo from "../../images/guardianmob2.png";
 import MobileThree from "../../images/guardianmob3.png";
-import Artbook from "../../images/JSnow2.png";
-import Pictionary from "../../images/Websockets.png";
-import Chatter from "../../images/Chatter_Desktop.png";
-import Jus from "../../images/Black_ReFresh.png";
+import Artbook from "../../images/ArtBookDesktopWelcome.png";
+import Pictionary from "../../images/WebsocketsDesktop.png";
+import Chatter from "../../images/ChatterDesktop.png";
+import Jus from "../../images/Jus.png";
 
 const Guardian = () => {
   return (
@@ -84,7 +84,7 @@ const Guardian = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 shadow-lg">
             <img className="w-full" src={GuardianPic} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
@@ -151,7 +151,7 @@ const Guardian = () => {
               />
             </div>
             {/* <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
-              <img className="w-2/3" src={Users} alt="" />
+              <img className="w-2/3 shadow-lg" src={Users} alt="" />
             </div> */}
           </div>
           <div className="flex flex-col justify-center items-center mb-8 mt-10 w-full sm:w-1/2">
@@ -177,7 +177,7 @@ const Guardian = () => {
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
             <Link to="/projects/artbook">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Artbook} alt="" />
               </div>
 
@@ -200,7 +200,7 @@ const Guardian = () => {
               </div>
             </Link>
             <Link to="/projects/pictionary">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
 
@@ -224,7 +224,7 @@ const Guardian = () => {
             </Link>
 
             <Link to="/projects/jus">
-              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
@@ -247,7 +247,7 @@ const Guardian = () => {
             </Link>
 
             <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Chatter} alt="" />
               </div>
 

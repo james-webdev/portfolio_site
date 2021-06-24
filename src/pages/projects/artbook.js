@@ -5,16 +5,16 @@ import Layout from "../../components/Layout";
 import IFOCOP from "../../images/ifocop.png";
 import ReactLogo from "../../images/react.png";
 import TailwindLogo from "../../images/tailwind.png";
-import JSnow from "../../images/JSnow2.png";
+import JSnow from "../../images/jsnow.png";
 import JSnowMobile from "../../images/mobileJS.png";
 import FaveMobile from "../../images/mobileFave.png";
 import Mobile from "../../images/mobile.png";
 import FlowerFarmer from "../../images/FlowerFarmer.png";
 import Users from "../../images/Users.png";
-import Pictionary from "../../images/Websockets.png";
-import Guardian from "../../images/Guardian_Desktop.png";
-import Chatter from "../../images/Chatter_Desktop.png";
-import Jus from "../../images/Black_ReFresh.png";
+import Pictionary from "../../images/WebsocketsDesktop.png";
+import Guardian from "../../images/GuardianDesktop.png";
+import Chatter from "../../images/ChatterDesktop.png";
+import Jus from "../../images/Jus.png";
 
 const ArtBook = () => {
   return (
@@ -107,7 +107,7 @@ const ArtBook = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 shadow-lg">
             {/* <StaticImage
               className="shadow-lg w-20 rounded"
               src="../images/jsnow.png"
@@ -234,7 +234,7 @@ const ArtBook = () => {
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
             <Link to="/projects/guardian">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Guardian} alt="" />
               </div>
 
@@ -256,7 +256,7 @@ const ArtBook = () => {
               </div>
             </Link>
             <Link to="/projects/pictionary">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
 
@@ -280,7 +280,7 @@ const ArtBook = () => {
             </Link>
 
             <Link to="/projects/jus">
-              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
@@ -303,7 +303,7 @@ const ArtBook = () => {
             </Link>
 
             <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Chatter} alt="" />
               </div>
 
