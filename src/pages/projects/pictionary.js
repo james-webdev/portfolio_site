@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../../components/Layout";
-import PictionaryPic from "../../images/WebsocketsDesktop.png";
-import PictionaryPic2 from "../../images/PictionaryPic2.png";
-import Artbook from "../../images/ArtBookDesktopWelcome.png";
-import Guardian from "../../images/GuardianDesktop.png";
-import Chatter from "../../images/ChatterDesktop.png";
-import Jus from "../../images/Jus.png";
+import PictionaryPic from "../../images/Websockets.png";
+import PictionaryPic2 from "../../images/Pictionary_2.png";
+import Artbook from "../../images/JSnow2.png";
+import Guardian from "../../images/Guardian_Desktop.png";
+import Chatter from "../../images/Chatter_Desktop.png";
+import Jus from "../../images/Black_ReFresh.png";
 import IFOCOP from "../../images/ifocop.png";
 import NEM from "../../images/nem.png";
 import P5 from "../../images/p5js.png";
@@ -105,7 +105,7 @@ const Pictionary = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10 shadow-lg">
+          <div className="mt-10">
             <img className="w-full" src={PictionaryPic} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
@@ -165,17 +165,17 @@ const Pictionary = () => {
           {/* <div className="mt-10">
             <div className="flex flex-col gap-6 justify-center items-center sm:flex sm:flex-row">
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
+                className="w-56 sm:w-1/4 m-3"
                 src={PicMob1}
                 alt=""
               />
               <img
-                className="hidden lg:block w-56 sm:w-1/4 m-3 shadow-lg"
+                className="hidden lg:block w-56 sm:w-1/4 m-3"
                 src={PicMob2}
                 alt=""
               />
               <img
-                className="w-56 sm:w-1/4 m-3 shadow-lg"
+                className="w-56 sm:w-1/4 m-3"
                 src={PicMob3}
                 alt=""
               />
@@ -193,7 +193,7 @@ const Pictionary = () => {
               users name to show up before the game started.
             </p>
           </div>
-          <div className="mt-10 shadow-lg">
+          <div className="mt-10">
             <img className="w-full" src={PictionaryPic2} alt="" />
           </div>
 
@@ -220,7 +220,7 @@ const Pictionary = () => {
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
             <Link to="/projects/artbook">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Artbook} alt="" />
               </div>
 
@@ -243,7 +243,7 @@ const Pictionary = () => {
               </div>
             </Link>
             <Link to="/projects/guardian">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Guardian} alt="" />
               </div>
 
@@ -266,12 +266,12 @@ const Pictionary = () => {
             </Link>
 
             <Link to="/projects/jus">
-              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                Juice e-commerce app
+                  Juice e-commerce app
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL
@@ -289,7 +289,7 @@ const Pictionary = () => {
             </Link>
 
             <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Chatter} alt="" />
               </div>
 
