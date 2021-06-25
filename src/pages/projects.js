@@ -1,12 +1,11 @@
 import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/Layout";
-import ArtBook from "../images/ArtBookDesktopWelcome.png";
-import Pictionary from "../images/WebsocketsDesktop.png";
-import Guardian from "../images/GuardianDesktop.png";
-import Chatter from "../images/ChatterDesktop.png";
-import TextLooper from "../components/TextLooper";
-import Jus from "../images/Jus.png";
+import ArtBook from "../images/JSnow2.png";
+import Pictionary from "../images/WebSockets.png";
+import Guardian from "../images/Guardian_Desktop.png";
+import Chatter from "../images/Chatter_Desktop.png";
+import Jus from "../images/Black_ReFresh.png";
 
 const Projects = () => {
   return (
@@ -25,7 +24,7 @@ const Projects = () => {
 
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
             <Link to="/projects/artbook">
-              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={ArtBook} alt="" />
               </div>
               <div className="text-left ">
@@ -48,7 +47,7 @@ const Projects = () => {
               </div>
             </Link>
             <Link to="/projects/guardian">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Guardian} alt="" />
               </div>
 
@@ -70,7 +69,7 @@ const Projects = () => {
               </div>
             </Link>
             <Link to="/projects/pictionary">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
 
@@ -94,12 +93,12 @@ const Projects = () => {
             </Link>
 
             <Link to="/projects/jus">
-              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                Juice e-commerce app
+                  Juice e-commerce app
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL
@@ -117,7 +116,7 @@ const Projects = () => {
             </Link>
 
             <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Chatter} alt="" />
               </div>
 

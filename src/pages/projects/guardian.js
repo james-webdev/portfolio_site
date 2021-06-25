@@ -9,10 +9,10 @@ import GatsbyLogo from "../../images/gatsby.png";
 import MobileOne from "../../images/guardianmob1.png";
 import MobileTwo from "../../images/guardianmob2.png";
 import MobileThree from "../../images/guardianmob3.png";
-import Artbook from "../../images/ArtBookDesktopWelcome.png";
-import Pictionary from "../../images/WebsocketsDesktop.png";
-import Chatter from "../../images/ChatterDesktop.png";
-import Jus from "../../images/Jus.png";
+import Artbook from "../../images/JSnow2.png";
+import Pictionary from "../../images/WebSockets.png";
+import Chatter from "../../images/Chatter_Desktop.png";
+import Jus from "../../images/Black_ReFresh.png";
 
 const Guardian = () => {
   return (
@@ -84,7 +84,7 @@ const Guardian = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10 shadow-lg">
+          <div className="mt-10">
             <img className="w-full" src={GuardianPic} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
@@ -134,21 +134,13 @@ const Guardian = () => {
           </div>
           <div className="mt-10">
             <div className="flex flex-col md:mt-10 justify-center items-center sm:flex sm:flex-row">
-              <img
-                className="w-56 sm:w-1/3 m-3"
-                src={MobileOne}
-                alt=""
-              />
+              <img className="w-56 sm:w-1/3 m-3" src={MobileOne} alt="" />
               <img
                 className="hidden lg:block w-56 sm:w-1/3 m-3"
                 src={MobileThree}
                 alt=""
               />
-              <img
-                className="w-56 sm:w-1/3 m-3"
-                src={MobileTwo}
-                alt=""
-              />
+              <img className="w-56 sm:w-1/3 m-3" src={MobileTwo} alt="" />
             </div>
             {/* <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
               <img className="w-2/3 shadow-lg" src={Users} alt="" />
@@ -177,7 +169,7 @@ const Guardian = () => {
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
             <Link to="/projects/artbook">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Artbook} alt="" />
               </div>
 
@@ -200,7 +192,7 @@ const Guardian = () => {
               </div>
             </Link>
             <Link to="/projects/pictionary">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
 
@@ -224,12 +216,12 @@ const Guardian = () => {
             </Link>
 
             <Link to="/projects/jus">
-              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                Juice e-commerce app
+                  Juice e-commerce app
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   An E-commerce application in PHP and Bootstrap with a MySQL
@@ -247,7 +239,7 @@ const Guardian = () => {
             </Link>
 
             <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg shadow-lg transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Chatter} alt="" />
               </div>
 
