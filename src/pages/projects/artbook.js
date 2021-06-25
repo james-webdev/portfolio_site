@@ -125,9 +125,11 @@ const ArtBook = () => {
               </div>
               <div className="">
                 <p className="max-w-4xl 2xl:text-3xl mt-3">
-                  We were left free to use the frameworks we wanted in this
-                  project. I chose React because I can see it is very sought
-                  after in today's market and I wanted to develop my skills.
+                  We needed to have a user be able to sign up, sign in, create a
+                  profile and publish, edit and delete posts. We also needed to
+                  have an admin profile who could do all the above to any
+                  account. We needed the user to be authenticated and authorised
+                  using JWT web tokens.
                 </p>
               </div>
             </div>
@@ -169,9 +171,9 @@ const ArtBook = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-3xl mt-3">
-                The back-end is in Node, Express and Mongo DB in a MVC
-                structure. The front-end is in React with Hooks and Axios to
-                connect to the API. I used Tailwind CSS for styling.
+                The back-end is in Node, Express and MongoDB in a MVC structure.
+                The front-end is in React with Hooks and Axios to connect to the
+                API. I used Tailwind CSS for styling.
               </p>
             </div>
           </div>
