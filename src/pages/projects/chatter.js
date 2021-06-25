@@ -6,10 +6,10 @@ import ReactLogo from "../../images/react.png";
 import TailwindLogo from "../../images/tailwind.png";
 import GatsbyLogo from "../../images/gatsby.png";
 import StyledComponents from "../../images/styled-components.png";
-import Artbook from "../../images/ArtBookDesktopWelcome.png";
-import Pictionary from "../../images/WebsocketsDesktop.png";
-import Guardian from "../../images/GuardianDesktop.png";
-import Jus from "../../images/Jus.png";
+import Artbook from "../../images/JSnow2.png";
+import Pictionary from "../../images/WebSockets.png";
+import Guardian from "../../images/Guardian_Desktop.png";
+import Jus from "../../images/Black_ReFresh.png";
 import Gendall from "../../images/gendall.png";
 import Chatmob1 from "../../images/chatmob1.png";
 import Chatmob2 from "../../images/chatmob2.png";
@@ -175,7 +175,7 @@ const Chatter = () => {
           </div>
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
             <Link to="/projects/artbook">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Artbook} alt="" />
               </div>
 
@@ -198,7 +198,7 @@ const Chatter = () => {
               </div>
             </Link>
             <Link to="/projects/pictionary">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
 
@@ -222,7 +222,7 @@ const Chatter = () => {
             </Link>
 
             <Link to="/projects/jus">
-              <div className="smallprojects rounded shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Jus} alt="" />
               </div>
               <div className="text-left ">
@@ -245,7 +245,7 @@ const Chatter = () => {
             </Link>
 
             <Link to="/projects/guardian">
-              <div className="smallprojects rounded-lg shadow-xl transform transition duration-500 hover:scale-105 ">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Guardian} alt="" />
               </div>
 
