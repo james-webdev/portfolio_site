@@ -22,7 +22,7 @@ const LinkedWrapper = styled.div`
 
 const LinkedIn = () => (
   <LinkedWrapper className="text-3xl">
-    <a href="https://www.linkedin.com/in/jamesroe-dev/">
+    <a target="_blank" href="https://www.linkedin.com/in/jamesroe-dev/">
       <FontAwesomeIcon style={{ color: "white" }} icon={faLinkedinIn} />
     </a>
   </LinkedWrapper>

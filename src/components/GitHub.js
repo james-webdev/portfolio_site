@@ -22,7 +22,7 @@ const GithubWrapper = styled.div`
 
 const Github = () => (
   <GithubWrapper className="text-3xl">
-    <a href="https://www.github.com/james-webdev">
+    <a target="_blank" href="https://www.github.com/james-webdev">
       <FontAwesomeIcon style={{ color: "white" }} icon={faGithub} />
     </a>
   </GithubWrapper>
