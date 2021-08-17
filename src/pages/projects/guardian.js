@@ -90,7 +90,7 @@ const Guardian = () => {
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
             <div className="">
               <div>
-                <h2 className="font-bold md:text-xl 2xl:text-5xl">
+                <h2 className="font-bold md:text-xl 2xl:text-3xl">
                   Project Purpose and Goal
                 </h2>
               </div>
@@ -121,7 +121,7 @@ const Guardian = () => {
             </div>
             <div className="w-full sm:w-1/2 mt-5 m-3">
               <div>
-                <h2 className="font-bold md:text-xl 2xl:text-5xl">
+                <h2 className="font-bold md:text-xl 2xl:text-3xl">
                   Webstack and explanation
                 </h2>
               </div>
@@ -148,7 +148,7 @@ const Guardian = () => {
           </div>
           <div className="flex flex-col justify-center items-center mb-8 mt-10 w-full sm:w-1/2">
             <div>
-              <h2 className="font-bold md:text-xl 2xl:text-5xl">
+              <h2 className="font-bold md:text-xl 2xl:text-3xl">
                 Lessons Learned
               </h2>
             </div>
