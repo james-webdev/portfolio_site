@@ -21,7 +21,7 @@ const Pictionary = () => {
             Websockets Pictionary
           </h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
-            <p className="2xl:text-3xl mt-3">
+            <p className="2xl:text-2xl mt-3">
               This was a project I did at IFOCOP for my Full Stack JavaScript
               qualification (equivalent to a Bachelor's Degree in the{" "}
               <a
@@ -54,7 +54,7 @@ const Pictionary = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   STACK
                 </h2>
-                <p className="p-1 text-sm font-semibold 2xl:text-3xl">
+                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
                   <ul>
                     <li>Socket.io</li>
                     <li>P5.js</li>
@@ -70,7 +70,7 @@ const Pictionary = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   CODE
                 </h2>
-                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-3xl">
+                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
                     href="https://github.com/james-webdev/websockets-pictionary"
@@ -83,7 +83,7 @@ const Pictionary = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   LIVE
                 </h2>
-                <p className="p-1 text-sm font-bold 2xl:text-3xl">
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
                     href="https://pictionary-websockets.herokuapp.com/"
@@ -92,13 +92,13 @@ const Pictionary = () => {
                   </a>
                 </p>
                 <div className="hidden sm:block">
-                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
                     First name: Guest
                   </p>
-                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
                     Email: guest@example.com
                   </p>
-                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
                     Password: 5678
                   </p>
                 </div>
@@ -116,7 +116,7 @@ const Pictionary = () => {
                 </h2>
               </div>
               <div className="">
-                <p className="max-w-4xl 2xl:text-3xl mt-3">
+                <p className="max-w-4xl 2xl:text-2xl mt-3">
                   The aim was that a users drawing would be seen by the other
                   playing across a live websockets connection using{" "}
                   <a className="textSiteGreen" href="https://socket.io/">
@@ -148,7 +148,7 @@ const Pictionary = () => {
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="max-w-4xl 2xl:text-3xl mt-3">
+              <p className="max-w-4xl 2xl:text-2xl mt-3">
                 I chose to use{" "}
                 <a className="textSiteGreen" href="https://p5js.org/">
                   P5.js
@@ -187,7 +187,7 @@ const Pictionary = () => {
                 Problems and thought processes
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-3xl mt-3">
+            <p className="max-w-4xl 2xl:text-2xl mt-3">
               One of the most tricky things was getting the users drawing to
               send across the Websockets connection. Then getting the logged in
               users name to show up before the game started.
@@ -203,7 +203,7 @@ const Pictionary = () => {
                 Lessons learnt
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-3xl mt-3">
+            <p className="max-w-4xl 2xl:text-2xl mt-3">
               {" "}
               I learnt a lot about Websockets and also improved my skills with
               Node, Express and MongoDB. It was interesting to to learn more

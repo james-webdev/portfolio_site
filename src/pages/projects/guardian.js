@@ -21,7 +21,7 @@ const Guardian = () => {
         <div className="mt-20 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:ml-60 lg:mr-60 mb-28">
           <h1 className="font-bold text-3xl 2xl:text-5xl">Guardian</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
-            <p className="2xl:text-3xl mt-3">
+            <p className="2xl:text-2xl mt-3">
               I built this site from scratch in React with GatsbyJS for
               Worktools, a cyber-security start-up based in London. I worked
               with a graphic designer for the designs. The site includes
@@ -49,7 +49,7 @@ const Guardian = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   STACK
                 </h2>
-                <p className="p-1 text-sm font-semibold 2xl:text-3xl">
+                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
                   <ul>
                     <li>React</li>
                     <li>Gatsby</li>
@@ -76,7 +76,7 @@ const Guardian = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   LIVE
                 </h2>
-                <p className="p-1 text-sm font-bold 2xl:text-3xl">
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
                   <a className="textSiteGreen" href="https://guardian.tech/">
                     View Site
                   </a>
@@ -95,7 +95,7 @@ const Guardian = () => {
                 </h2>
               </div>
               <div className="">
-                <p className="max-w-4xl 2xl:text-3xl mt-3">
+                <p className="max-w-4xl 2xl:text-2xl mt-3">
                   Worktools has built a web app and desktop app in React and so
                   wanted a modern website in React to help with their VC funding
                   round. They wanted it to be in React so as to be able to
@@ -105,7 +105,7 @@ const Guardian = () => {
               </div>
             </div>
             <div className="">
-              <p className="hidden md:block md:invisible max-w-4xl 2xl:text-3xl mt-3">
+              <p className="hidden md:block md:invisible max-w-4xl 2xl:text-2xl mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
                 asperiores vitae consequatur unde consectetur ducimus eos, quam
                 doloremque repellat tenetur eaque numquam nesciunt nobis ipsum
@@ -125,7 +125,7 @@ const Guardian = () => {
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="max-w-4xl 2xl:text-3xl mt-3">
+              <p className="max-w-4xl 2xl:text-2xl mt-3">
                 I used React with GatsbyJS, a React-based, GraphQL powered,
                 static site generator. I used Tailwind CSS, a utility first CSS
                 framework, for styling. It was deployed on AWS.
@@ -152,7 +152,7 @@ const Guardian = () => {
                 Lessons Learned
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-3xl mt-3">
+            <p className="max-w-4xl 2xl:text-2xl mt-3">
               I really honed my responsive website skills in this project. It
               was the first time I'd used CSS grid in addition to FlexBox which
               I am more familiar with. I also learnt a lot about CSS animations

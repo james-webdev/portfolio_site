@@ -22,7 +22,7 @@ const Jus = () => {
             Juice e-commerce app
           </h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
-            <p className="2xl:text-3xl mt-3">
+            <p className="2xl:text-2xl mt-3">
               This was my final course project I did at AFPA in 2019 for my web
               and mobile web developer qualification (equivalent to a Foundation
               Degree in the{" "}
@@ -56,7 +56,7 @@ const Jus = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   STACK
                 </h2>
-                <p className="p-1 text-sm font-semibold 2xl:text-3xl">
+                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
                   <ul>
                     <li>Bootstrap</li>
                     <li>PHP</li>
@@ -69,7 +69,7 @@ const Jus = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   CODE
                 </h2>
-                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-3xl">
+                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
                     href="https://github.com/james-webdev/Boutique_jus"
@@ -91,7 +91,7 @@ const Jus = () => {
                 </h2>
               </div>
               <div className="">
-                <p className="max-w-4xl 2xl:text-3xl mt-3">
+                <p className="max-w-4xl 2xl:text-2xl mt-3">
                   I decided to do a Juice e-commerce app as I had just closed my
                   own Juice company and thus had all the marketing images.
                 </p>
@@ -122,7 +122,7 @@ const Jus = () => {
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="max-w-4xl 2xl:text-3xl mt-3">
+              <p className="max-w-4xl 2xl:text-2xl mt-3">
                 The e-commerce site was coded using in part the code from a blog
                 we had written in class in PHP with a Bootstrap template for the
                 front-end and a MySQL database. The PHP was linked to the
@@ -141,7 +141,7 @@ const Jus = () => {
                 Lessons learnt
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-3xl mt-3">
+            <p className="max-w-4xl 2xl:text-2xl mt-3">
               {" "}
               I learnt a lot about the MVC way of building apps in this project.
               I also learnt a great deal about PHP and how to get a front end to
