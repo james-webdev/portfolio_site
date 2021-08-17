@@ -59,7 +59,7 @@ const Chatter = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   CODE
                 </h2>
-                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-3xl">
+                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
                     href="https://github.com/james-webdev/React-gatsby-chatter"
