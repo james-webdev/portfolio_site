@@ -23,7 +23,7 @@ const ArtBook = () => {
         <div className="mt-20 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:ml-60 lg:mr-60 mb-28">
           <h1 className="font-bold text-3xl 2xl:text-5xl">ArtBook</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
-            <p className="2xl:text-3xl mt-3">
+            <p className="2xl:text-2xl mt-3">
               This was my final class project at IFOCOP for my Full Stack
               JavaScript qualification (equivalent to a Bachelor's Degree in the{" "}
               <a
@@ -57,7 +57,7 @@ const ArtBook = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   STACK
                 </h2>
-                <p className="p-1 text-sm font-semibold 2xl:text-3xl">
+                <p className="p-1 text-sm font-semibold 2xl:text-2xl">
                   <ul>
                     <li>React</li>
                     <li>MongoDB</li>
@@ -72,7 +72,7 @@ const ArtBook = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   CODE
                 </h2>
-                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-3xl">
+                <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
                     href="https://github.com/james-webdev/MERN_SocialNetwork_React_Front"
@@ -91,16 +91,16 @@ const ArtBook = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   LIVE
                 </h2>
-                <p className="p-1 text-sm font-bold 2xl:text-3xl">
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
                   <a className="textSiteGreen" href="http://artbook.live/">
                     View Site
                   </a>
                 </p>
                 <div className="hidden sm:block">
-                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
                     Guest login: guest@example.com
                   </p>
-                  <p className="p-1 text-xs font-semibold 2xl:text-3xl">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
                     Password: 5678
                   </p>
                 </div>
@@ -124,7 +124,7 @@ const ArtBook = () => {
                 </h2>
               </div>
               <div className="">
-                <p className="max-w-4xl 2xl:text-3xl mt-3">
+                <p className="max-w-4xl 2xl:text-2xl mt-3">
                   We needed to have a user be able to sign up, sign in, create a
                   profile and publish, edit and delete posts. We also needed to
                   have an admin profile who could do all the above to any
@@ -134,7 +134,7 @@ const ArtBook = () => {
               </div>
             </div>
             <div className="">
-              <p className="hidden md:block md:invisible max-w-4xl 2xl:text-3xl mt-3">
+              <p className="hidden md:block md:invisible max-w-4xl 2xl:text-2xl mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
                 asperiores vitae consequatur unde consectetur ducimus eos, quam
                 doloremque repellat tenetur eaque numquam nesciunt nobis ipsum
@@ -170,7 +170,7 @@ const ArtBook = () => {
                   Webstack and explanation
                 </h2>
               </div>
-              <p className="max-w-4xl 2xl:text-3xl mt-3">
+              <p className="max-w-4xl 2xl:text-2xl mt-3">
                 The back-end is in Node, Express and MongoDB in a MVC structure.
                 The front-end is in React with Hooks and Axios to connect to the
                 API. I used Tailwind CSS for styling.
@@ -198,7 +198,7 @@ const ArtBook = () => {
                 Lessons Learned
               </h2>
             </div>
-            <p className="max-w-4xl 2xl:text-3xl mt-3">
+            <p className="max-w-4xl 2xl:text-2xl mt-3">
               I really honed my React skills in this project. In particular for
               using hooks. I used the useState hook and the useEffect hook in
               nearly every component. I was able to learn authentication with
