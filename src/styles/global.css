@@ -74,7 +74,6 @@
 
   .smallprojects {
     width: 260px !important;
-    
   }
 
   .smallprojectstext {
@@ -102,6 +101,85 @@
   }
 }
 
+/* target */
+
+.moveThisBit {
+  animation: targetttt;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes targetttt {
+  10% {
+    transform: translate(0, 0);
+  }
+
+  35% {
+    transform: translate(40px, 40px);
+  }
+
+  40% {
+    transform: translate(40px, -20px);
+  }
+  45% {
+    transform: translate(40px, -40px);
+  }
+  50% {
+    transform: translate(-20px, -40px);
+  }
+  65% {
+    transform: translate(-40px, -40px);
+  }
+  75% {
+    transform: translate(-20px, 20px);
+  }
+  85% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.moveThisCircle {
+  animation: targettttCircle;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes targettttCircle {
+  10% {
+    transform: translate(40px, 40px);
+  }
+
+  35% {
+    transform: translate(40px, -20px);
+  }
+
+  40% {
+    transform: translate(40px, -40px);
+  }
+  45% {
+    transform: translate(-20px, -40px);
+  }
+  50% {
+    transform: translate(-40px, -40px);
+  }
+  65% {
+    transform: translate(-20px, 20px);
+  }
+  75% {
+    transform: translate(-40px, 40px);
+  }
+  85% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
 
 @tailwind base;
 @tailwind components;

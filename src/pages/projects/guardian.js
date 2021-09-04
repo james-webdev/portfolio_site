@@ -13,6 +13,9 @@ import Artbook from "../../images/JSnow2.png";
 import Pictionary from "../../images/WebSockets.png";
 import Chatter from "../../images/Chatter_Desktop.png";
 import Jus from "../../images/Black_ReFresh.png";
+import Heart from "../../components/Heart";
+import Shield from "../../components/Shield";
+import Target from "../../components/Target";
 
 const Guardian = () => {
   return (
@@ -76,9 +79,10 @@ const Guardian = () => {
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   LIVE
                 </h2>
-                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+                <p className="p-1 text-xs font-bold 2xl:text-2xl">
                   <a className="textSiteGreen" href="https://guardian.tech/">
-                    View Site
+                    View Site (currently unviewable due to brand copywrite
+                    issues)
                   </a>
                 </p>
               </div>
@@ -157,11 +161,27 @@ const Guardian = () => {
               was the first time I'd used CSS grid in addition to FlexBox which
               I am more familiar with. I also learnt a lot about CSS animations
               I am quite proud of the shield, target and heart animations which
-              I built using SVGs provided by the graphic designer. I also was
-              able to improve my skills in using Tailwind CSS and Git version
-              control and of course React.
+              I built using SVGs provided by the graphic designer (see below). I
+              also was able to improve my skills in using Tailwind CSS and Git
+              version control and of course React.
             </p>
           </div>
+          <section className="w-full flex justify-center">
+            <div
+              className="flex-col lg:flex lg:flex-row"
+              style={{ maxWidth: 1200 }}
+            >
+              <div className="lg:w-1/3 mx-12 my-4 xl:ml-0">
+                <Heart />
+              </div>
+              <div className="lg:w-1/3 mx-12 my-4">
+                <Shield />
+              </div>
+              <div className="lg:w-1/3 mx-12 my-4 xl:mr-0">
+                <Target />
+              </div>
+            </div>
+          </section>
           <div>
             <h2 className="font-bold mt-10 sm:mt-20 md:text-2xl 2xl:text-3xl">
               Other Projects
