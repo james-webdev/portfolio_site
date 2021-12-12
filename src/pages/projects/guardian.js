@@ -80,8 +80,11 @@ const Guardian = () => {
                   LIVE
                 </h2>
                 <p className="p-1 text-xs font-bold 2xl:text-2xl">
-                  <a className="textSiteGreen" href="https://wizardly-goodall-d7b279.netlify.app/">
-                    View Site 
+                  <a
+                    className="textSiteGreen"
+                    href="https://worktools-website.netlify.app/"
+                  >
+                    View Site
                   </a>
                 </p>
               </div>
