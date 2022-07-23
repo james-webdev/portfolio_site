@@ -92,7 +92,7 @@ const ArtBook = () => {
                   LIVE
                 </h2>
                 <p className="p-1 text-sm font-bold 2xl:text-2xl">
-                  <a className="textSiteGreen" href="http://artbook.live/">
+                  <a className="textSiteGreen" href="http://178.62.76.166/">
                     View Site
                   </a>
                 </p>
