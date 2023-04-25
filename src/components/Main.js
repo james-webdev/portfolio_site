@@ -143,7 +143,7 @@ const Main = () => {
         <div className="h-96 text-sm sm:text-2xl flex flex-col justify-center items-center text-center">
           <ScrollAnimation animateIn="animate__backInLeft">
             <h1 className="text-xl sm:text-4xl">
-              Hi I'm James. I'm a Full Stack Developer.
+              Hi I'm James. I'm a Front-End Developer.
             </h1>
           </ScrollAnimation>
           <br />
