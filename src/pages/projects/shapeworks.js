@@ -1,26 +1,30 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../../components/Layout";
-import ShapeWorks from "../../images/ShapeWorks.png";
+import ChatterPic from "../../images/ChatterDesktop.png";
 import ReactLogo from "../../images/react.png";
+import TailwindLogo from "../../images/tailwind.png";
+import GatsbyLogo from "../../images/gatsby.png";
+import StyledComponents from "../../images/styled-components.png";
 import Artbook from "../../images/JSnow2.png";
 import Pictionary from "../../images/WebSockets.png";
 import Guardian from "../../images/Guardian_Desktop.png";
 import Jus from "../../images/Black_ReFresh.png";
-import SW from "../../images/SW-logo.svg";
-import WP from "../../images/Wordpress.png";
-import SASS from "../../images/Sass.png";
-import PHP from "../../images/php.png";
+import Gendall from "../../images/gendall.png";
+import Chatmob1 from "../../images/chatmob1.png";
+import Chatmob2 from "../../images/chatmob2.png";
+import Chatmob3 from "../../images/chatmob3.png";
 
 const Chatter = () => {
   return (
     <>
       <Layout>
         <div className="mt-20 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:ml-60 lg:mr-60 mb-28">
-          <h1 className="font-bold text-3xl 2xl:text-5xl">Shape Works Website</h1>
+          <h1 className="font-bold text-3xl 2xl:text-5xl">Shapeworks Website</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
             <p className="2xl:text-2xl mt-3">
-              I built this site with my colleagues at Shape Works in 2022-3 with Wordpress and custom Gutenberg blocks in React, PHP and SASS.
+              I built this site from scratch in React with GatsbyJS in 2019 for
+              Gendall Design, a digital design agency in Falmouth.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -30,11 +34,11 @@ const Chatter = () => {
                   WHERE
                 </h2>
                 <div className="flex justify-center items-center">
-                  <a href="https://shape.works/">
+                  <a href="https://www.gendall.co.uk/">
                     <img
-                      className="w-60 rounded transform transition duration-300 hover:scale-105"
-                      src={SW}
-                      alt="Shape Works logo"
+                      className="w-10 rounded transform transition duration-300 hover:scale-105"
+                      src={Gendall}
+                      alt="Gendall logo"
                     />
                   </a>
                 </div>
@@ -46,9 +50,8 @@ const Chatter = () => {
                 <p className="p-1 text-sm font-semibold 2xl:text-2xl">
                   <ul>
                     <li>React</li>
-                    <li>Wordpress</li>
-                    <li>PHP</li>
-                    <li>SASS</li>
+                    <li>Gatsby</li>
+                    <li>Styled Components</li>
                   </ul>
                 </p>
               </div>
@@ -59,7 +62,7 @@ const Chatter = () => {
                 <div className="flex flex-col p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
-                    href="https://github.com/shape-works/shape-dot-works"
+                    href="https://github.com/james-webdev/React-gatsby-chatter"
                   >
                     Repository
                   </a>
@@ -72,7 +75,7 @@ const Chatter = () => {
                 <p className="p-1 text-sm font-bold 2xl:text-2xl">
                   <a
                     className="textSiteGreen"
-                    href="https://shape.works/"
+                    href="https://www.chattervoice.co.uk/"
                   >
                     View Site
                   </a>
@@ -81,7 +84,7 @@ const Chatter = () => {
             </div>
           </div>
           <div className="mt-10 shadow-lg">
-            <img className="w-full" src={ShapeWorks} alt="" />
+            <img className="w-full" src={ChatterPic} alt="" />
           </div>
           <div className="flex flex-col md:flex md:flex-row justify-between mt-10">
             <div className="">
@@ -92,7 +95,10 @@ const Chatter = () => {
               </div>
               <div className="">
                 <p className="max-w-4xl 2xl:text-2xl mt-3">
-                  Shape Works wanted to build its own new portfolio site to showcase the excellent work and the websites it has built for a range of high profile clients in recent years.
+                  Gendall was creating a company called Chatter which allows
+                  clients to use Alexa voice technology to book holidays. I was
+                  asked to build a site in React from a series of wireframes
+                  their designers had made.
                 </p>
               </div>
             </div>
@@ -108,9 +114,8 @@ const Chatter = () => {
           <div className="flex flex-col sm:flex sm:flex-row justify-center items-center mt-5">
             <div className="w-1/2 flex flex-col xl:flex xl:flex-row mt-4 sm:mt-10 justify-center items-center m-3">
               <img className="w-14 sm:w-24 m-3" src={ReactLogo} alt="" />
-              <img className="w-14 m-3" src={WP} alt="" />
-              <img className="w-28 m-3" src={SASS} alt="" />
-              <img className="w-28 m-3" src={PHP} alt="" />
+              <img className="w-14 m-3" src={GatsbyLogo} alt="" />
+              <img className="w-28 m-3" src={StyledComponents} alt="" />
             </div>
             <div className="w-full sm:w-1/2 mt-5 m-3">
               <div>
@@ -119,11 +124,14 @@ const Chatter = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-2xl mt-3">
-                My team and used React to build custom gutenberg blocks for this site. Back end logic was haandled with PHP and Wordpress and styling with SASS. The is is deployed on Kinsta servers.
+                I used React with GatsbyJS, a React-based, GraphQL powered,
+                static site generator. I used Styled Components, a CSS-in-JS
+                tool that bridges the gap between components and styling. I
+                worked with a graphic designer for the designs.
               </p>
             </div>
           </div>
-          {/* <div className="mt-10">
+          <div className="mt-10">
             <div className="flex flex-col md:mt-10 justify-center items-center sm:flex sm:flex-row">
               <img className="w-56 sm:w-1/3 m-3" src={Chatmob1} alt="" />
               <img
@@ -133,11 +141,11 @@ const Chatter = () => {
               />
               <img className="w-56 sm:w-1/3 m-3" src={Chatmob3} alt="" />
             </div>
-            <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
+            {/* <div className="ml-10 mr-10 mt-5 flex justify-center items-center">
               <img className="w-2/3 shadow-lg" src={Users} alt="" />
-            </div>
-          </div> */}
-          {/* <div className="flex flex-col justify-center items-center mb-8 mt-10 w-full sm:w-1/2">
+            </div> */}
+          </div>
+          <div className="flex flex-col justify-center items-center mb-8 mt-10 w-full sm:w-1/2">
             <div>
               <h2 className="font-bold md:text-xl 2xl:text-3xl">
                 Lessons Learned
@@ -151,7 +159,7 @@ const Chatter = () => {
               Flebox along the way and I honed my skills in getting a website to
               be responsive. I also improved my skills in Git version control.
             </p>
-          </div> */}
+          </div>
           <div>
             <h2 className="font-bold mt-10 sm:mt-20 md:text-2xl 2xl:text-3xl">
               Other Projects

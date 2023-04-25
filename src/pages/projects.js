@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import ArtBook from "../images/JSnow2.png";
 import Pictionary from "../images/WebSockets.png";
 import Guardian from "../images/Guardian_Desktop.png";
-import Chatter from "../images/Chatter_Desktop.png";
+import ShapeWorks from "../images/ShapeWorks4.png";
 import Jus from "../images/Black_ReFresh.png";
 
 const Projects = () => {
@@ -40,6 +40,28 @@ const Projects = () => {
                     className="hover:underline font-semibold text-sm sm:text-md"
                     to="/projects/artbook"
                     y
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+            <Link to="/projects/chatter">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
+                  Shape Works Website
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A website with Wordpress and Gutenberg blocks.
+                </p>
+                <div className="mt-5 hidden sm:block">
+                  <Link
+                    className="hover:underline font-semibold text-sm sm:text-md"
+                    to="/projects/chatter"
                   >
                     VIEW PROJECT
                   </Link>
@@ -115,28 +137,7 @@ const Projects = () => {
               </div>
             </Link>
 
-            {/* <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects" src={Chatter} alt="" />
-              </div>
-
-              <div className="text-left ">
-                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
-                  Chatter Website
-                </p>
-                <p className="smallprojectstext mt-5 text-md">
-                  A website with React and Gatsby.
-                </p>
-                <div className="mt-5 hidden sm:block">
-                  <Link
-                    className="hover:underline font-semibold text-sm sm:text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
-            </Link> */}
+            
           </div>
         </div>
       </Layout>
