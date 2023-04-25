@@ -20,7 +20,7 @@ const Chatter = () => {
           <h1 className="font-bold text-3xl 2xl:text-5xl">Shape Works Website</h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
             <p className="2xl:text-2xl mt-3">
-              I built this site with my colleagues at Shape Works in 2022-3 with Wordpress and custom Gutenberg blocks in React, PHP and SASS.
+              I built this site with my colleagues at Shape Works in 2023 with Wordpress and custom Gutenberg blocks in React, PHP and SASS.
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -119,7 +119,7 @@ const Chatter = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-2xl mt-3">
-                My team and used React to build custom gutenberg blocks for this site. Back end logic was haandled with PHP and Wordpress and styling with SASS. The is is deployed on Kinsta servers.
+                My team and used React to build custom gutenberg blocks for this site. Back end logic was handled with PHP and Wordpress and styling with SASS. The site is deployed on Kinsta servers.
               </p>
             </div>
           </div>

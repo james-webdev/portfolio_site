@@ -46,28 +46,7 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-            <Link to="/projects/chatter">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
-              </div>
-
-              <div className="text-left ">
-                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
-                  Shape Works Website
-                </p>
-                <p className="smallprojectstext mt-5 text-md">
-                  A website with Wordpress and Gutenberg blocks.
-                </p>
-                <div className="mt-5 hidden sm:block">
-                  <Link
-                    className="hover:underline font-semibold text-sm sm:text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
-            </Link>
+           
             <Link to="/projects/guardian">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Guardian} alt="" />
@@ -102,6 +81,29 @@ const Projects = () => {
                 <p className="smallprojectstext mt-5 text-md">
                   A pictionary game using P5.js and websockets with a MongoDB
                   database.
+                </p>
+                <div className="mt-5 hidden sm:block">
+                  <Link
+                    className="hover:underline font-semibold text-sm sm:text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/chatter">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
+                  Shape Works Website
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A website with Wordpress and Gutenberg blocks.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
