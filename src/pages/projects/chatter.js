@@ -8,7 +8,7 @@ import Pictionary from "../../images/WebSockets.png";
 import Guardian from "../../images/Guardian_Desktop.png";
 import Jus from "../../images/Black_ReFresh.png";
 import SW from "../../images/SW-logo.svg";
-import WP from "../../images/Wordpress.png";
+import WP from "../../images/WordPress.png";
 import SASS from "../../images/Sass.png";
 import PHP from "../../images/php.png";
 
