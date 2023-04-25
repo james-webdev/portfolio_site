@@ -213,7 +213,7 @@ const Guardian = () => {
                 </div>
               </div>
             </Link>
-            {/* <Link to="/projects/pictionary">
+            <Link to="/projects/pictionary">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
@@ -235,7 +235,7 @@ const Guardian = () => {
                   </Link>
                 </div>
               </div>
-            </Link> */}
+            </Link>
 
             <Link to="/projects/jus">
               <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">

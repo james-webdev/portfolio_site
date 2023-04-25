@@ -204,7 +204,7 @@ const Jus = () => {
               </div>
             </Link>
 
-            {/* <Link to="/projects/pictionary">
+            <Link to="/projects/pictionary">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Pictionary} alt="" />
               </div>
@@ -226,7 +226,7 @@ const Jus = () => {
                   </Link>
                 </div>
               </div>
-            </Link> */}
+            </Link>
 
             {/* <Link to="/projects/chatter">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
