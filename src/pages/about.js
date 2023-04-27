@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout";
-import TextLooper from "../components/TextLooper";
-import Me from "../images/jim.png";
 import Me2 from "../images/James-nobg.png";
 
 const About = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center">
-        <div style={{ background: '#01bbae' }} className="flex rounded-md justify-center items-center mt-40 sm:mt-28 mb-20">
+        <div style={{ background: '#01bbae' }} className="flex rounded-md justify-center items-center mt-40 sm:mt-28 mb-8 sm:mb-20">
           <img className="w-72 rounded-lg shadow-lg" src={Me2} alt="" />
         </div>
 
@@ -32,7 +30,7 @@ const About = () => {
             JavaScript development.
           </p>
           <p className="text-md sm:text-xl mt-5">
-            I have been coding nearly every day for 4 years now and have worked on a range of different <Link
+            I have been coding nearly every day for 4 years now and have worked on a range of <Link
               className="textSiteGreen"
               to="/projects"
             >
