@@ -16,6 +16,7 @@ import Jus from "../../images/Black_ReFresh.png";
 import Heart from "../../components/Heart";
 import Shield from "../../components/Shield";
 import Target from "../../components/Target";
+import ShapeWorks from "../../images/ShapeWorks4.png";
 
 const Guardian = () => {
   return (
@@ -260,28 +261,28 @@ const Guardian = () => {
               </div>
             </Link>
 
-            {/* <Link to="/projects/chatter">
+            <Link to="/projects/chatter">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects" src={Chatter} alt="" />
+                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
               </div>
 
-              <div className="text-left ">
+              <div className="text-left">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
-                  Chatter Website
+                  Shape Works Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website with React and Gatsby.
+                  A website with React, Gutenberg and Wordpress.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
-                    className="hover:underline font-semibold text-sm sm:text-md"
+                    className="hover:underline font-semibold text-md"
                     to="/projects/chatter"
                   >
                     VIEW PROJECT
                   </Link>
                 </div>
               </div>
-            </Link> */}
+            </Link>
           </div>
         </div>
       </Layout>

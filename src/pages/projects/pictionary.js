@@ -11,6 +11,7 @@ import IFOCOP from "../../images/ifocop.png";
 import NEM from "../../images/nem.png";
 import P5 from "../../images/p5js.png";
 import Socket from "../../images/socket.png";
+import ShapeWorks from "../../images/ShapeWorks4.png";
 
 const Pictionary = () => {
   return (
@@ -79,7 +80,30 @@ const Pictionary = () => {
                   </a>
                 </div>
               </div>
-             
+              <div className="m-1 sm:m-4">
+                <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
+                  LIVE
+                </h2>
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+                  <a
+                    className="textSiteGreen"
+                    href="https://pictionary-websockets.herokuapp.com/"
+                  >
+                    View Site
+                  </a>
+                  </p>
+                <div className="hidden sm:block">
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                    First name: Guest
+                  </p>
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                    Email: guest@example.com
+                  </p>
+                  <p className="p-1 text-xs font-semibold 2xl:text-2xl">
+                    Password: 5678
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="mt-10">
@@ -265,6 +289,28 @@ const Pictionary = () => {
               </div>
             </Link>
 
+            <Link to="/projects/chatter">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
+              </div>
+
+              <div className="text-left">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
+                  Shape Works Website
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A website with React, Gutenberg and Wordpress.
+                </p>
+                <div className="mt-5 hidden sm:block">
+                  <Link
+                    className="hover:underline font-semibold text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </Layout>

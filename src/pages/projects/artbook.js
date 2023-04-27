@@ -15,6 +15,7 @@ import Pictionary from "../../images/WebSockets.png";
 import Guardian from "../../images/Guardian_Desktop.png";
 import Chatter from "../../images/Chatter_Desktop.png";
 import Jus from "../../images/Black_ReFresh.png";
+import ShapeWorks from "../../images/ShapeWorks4.png";
 
 const ArtBook = () => {
   return (
@@ -304,17 +305,17 @@ const ArtBook = () => {
               </div>
             </Link>
 
-            {/* <Link to="/projects/chatter">
+            <Link to="/projects/chatter">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects" src={Chatter} alt="" />
+                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
               </div>
 
               <div className="text-left">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
-                  Chatter Website
+                  Shape Works Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website with React and Gatsby.
+                  A website with React, Gutenberg adn Wordpress.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -325,7 +326,7 @@ const ArtBook = () => {
                   </Link>
                 </div>
               </div>
-            </Link> */}
+            </Link>
           </div>
         </div>
       </Layout>

@@ -98,8 +98,8 @@ const Projects = () => {
                 <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
               </div>
 
-              <div className="text-left ">
-                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
+              <div className="text-left">
+                <p className="mt-5 text-xl sm:text-2xl font-bold sm:mt-14">
                   Shape Works Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">

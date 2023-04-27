@@ -1,7 +1,3 @@
-/* body {
-  overflow-y: hidden !important;
-  overflow-x: hidden !important;
-} */
 
 /* .overflowAbout {
   overflow-y: visible !important;
@@ -9,8 +5,11 @@
 
 .shapeworks {
   transform: scale(1.25);
-
-
+}
+@media only screen and (max-width: 450px) {
+  .blob {
+    display: none;
+  }
 }
 .shapeworks:hover {
   background-color: #01bbae;
