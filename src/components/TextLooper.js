@@ -46,7 +46,7 @@ const TextLooper = () => {
           <p className="ml-2 z-0 mt-2">Git.</p>
           <p className="ml-2 z-0 mt-2">Flexbox.</p>
           <p className="ml-2 z-0 mt-2">Wordpress.</p>
-          <p className="ml-2 z-0 mt-2">Styled Components.</p>
+          {/* <p className="ml-2 z-0 mt-2">Styled Components.</p> */}
         </TextLoop>{" "}
       </div>
     </ScrollAnimation>
