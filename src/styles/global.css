@@ -96,10 +96,11 @@
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 450px) {
   .smallprojectsloop {
-    display: none;
-    /* font-size: 12px !important; */
+    /* display: none; */
+    font-size: 12px !important; 
+    margin-top: -130px !important;
   }
 }
 
