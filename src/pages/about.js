@@ -9,7 +9,7 @@ const About = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center">
-        <div style={{background: '#01bbae'}}className="flex rounded-md justify-center items-center mt-40 sm:mt-28 mb-20">
+        <div style={{ background: '#01bbae' }} className="flex rounded-md justify-center items-center mt-40 sm:mt-28 mb-20">
           <img className="w-72 rounded-lg shadow-lg" src={Me2} alt="" />
         </div>
 
@@ -23,7 +23,7 @@ const About = () => {
             >
               &nbsp;cold-pressed juice company&nbsp;
             </a> */}
-             I'd set up, I was looking for a new direction.{" "}
+            I'd set up, I was looking for a new direction.{" "}
           </p>
           <p className="text-md sm:text-xl mt-5">
             A succesion of synchronous events led me to development. I was able
@@ -32,18 +32,24 @@ const About = () => {
             JavaScript development.
           </p>
           <p className="text-md sm:text-xl mt-5">
-            I have been coding nearly every day for 4 years now. The past year and half I have been working full-time at <a
+            I have been coding nearly every day for 4 years now and have worked on a range of different <Link
+              className="textSiteGreen"
+              to="/projects"
+            >
+              projects.&nbsp;
+            </Link>
+            The past year and half I have been working full-time at <a
               className="textSiteGreen"
               href="https://shape.works"
             >
               Shape Works
-            </a> helping them build websites with React, SASS, PHP and JavaScript. I find development
+            </a> helping them build websites with React, SASS, PHP, Wordpress and JavaScript. I find development
             to be the perfect balance of creativity, which I value very highly,
             and problem solving, which keeps my analytical mind busy.
           </p>
 
           <p className="text-md sm:text-xl mt-5">
-             Outside of work I enjoy road biking, swimming and reading.
+            Outside of work I enjoy road biking, swimming and reading.
           </p>
         </div>
       </div>

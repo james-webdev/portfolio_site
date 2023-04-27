@@ -12,6 +12,7 @@ import MySQL from "../../images/MySQL.png";
 import PHP from "../../images/php.png";
 import Charbon from "../../images/charbon.png";
 import Jus3 from "../../images/Jus3.png";
+import ShapeWorks from "../../images/ShapeWorks4.png";
 
 const Jus = () => {
   return (
@@ -228,17 +229,17 @@ const Jus = () => {
               </div>
             </Link>
 
-            {/* <Link to="/projects/chatter">
+            <Link to="/projects/chatter">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects" src={Chatter} alt="" />
+                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
               </div>
 
               <div className="text-left ">
                 <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 sm:mt-10">
-                  Chatter Website
+                  Shape Works Website
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
-                  A website with React and Gatsby.
+                  A website with Wordpress and Gutenberg blocks.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
@@ -249,7 +250,8 @@ const Jus = () => {
                   </Link>
                 </div>
               </div>
-            </Link> */}
+            </Link>
+
           </div>
         </div>
       </Layout>
