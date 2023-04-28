@@ -27,11 +27,11 @@ const Contact = () => {
             </div>
           </button>
         </div>
-        {/* <div className="text-center mt-2 mb-28">
+        <div className="text-center mt-2 mb-28">
           <p className="text-md sm:text-2xl hover:green-500">
-            +33778884517
+            +44748068447
           </p>
-        </div> */}
+        </div>
       </Layout>
     </>
   );
