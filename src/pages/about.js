@@ -41,10 +41,11 @@ const About = () => {
               href="https://shape.works"
             >
               Shape Works
-            </a> as a Web Engineer helping them build websites with React, SASS, PHP, Wordpress and JavaScript. I find development
-            to be the perfect balance of creativity, which I value very highly,
-            and problem solving, which keeps my analytical mind busy.
+            </a> as a Web Engineer helping them build websites with React, SASS, PHP, Wordpress and JavaScript. 
           </p>
+            {/* <p>I find development
+            to be the perfect balance of creativity, which I value very highly,
+            and problem solving, which keeps my analytical mind busy.</p> */}
 
           <p className="text-md sm:text-xl mt-5">
             Outside of work I enjoy road biking, swimming and reading.
