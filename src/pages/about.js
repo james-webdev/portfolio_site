@@ -14,13 +14,13 @@ const About = () => {
         <div className="h-96 ml-8 mr-8 flex flex-col mt-40 mb-80 md:mt-5 max-w-3xl text-center justify-center items-center">
           <p className="text-md sm:text-xl">
             At the beginning of 2019, after 9 years teaching business English in
-            Paris and facing the closure of a cold-pressed juice company&nbsp;
-            {/* <a
+            Paris and facing the closure of a
+            <a
               className="textSiteGreen"
               href="https://www.instagram.com/refresh.coldpress/"
             >
               &nbsp;cold-pressed juice company&nbsp;
-            </a> */}
+            </a>
             I'd set up, I was looking for a new direction.{" "}
           </p>
           <p className="text-md sm:text-xl mt-5">
@@ -34,14 +34,14 @@ const About = () => {
               className="textSiteGreen"
               to="/projects"
             >
-              projects.&nbsp;
+              projects&nbsp;
             </Link>
-            The past year and half I have been working full-time at <a
+            in different stacks. The past year and half I have been working full-time at <a
               className="textSiteGreen"
               href="https://shape.works"
             >
               Shape Works
-            </a> helping them build websites with React, SASS, PHP, Wordpress and JavaScript. I find development
+            </a> as a Web Engineer helping them build websites with React, SASS, PHP, Wordpress and JavaScript. I find development
             to be the perfect balance of creativity, which I value very highly,
             and problem solving, which keeps my analytical mind busy.
           </p>
