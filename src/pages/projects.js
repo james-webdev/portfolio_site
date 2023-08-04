@@ -23,30 +23,6 @@ const Projects = () => {
           </div>
 
           <div className="p-4 mb-40 projectsGrid mt-5 md:mt-10 ">
-            <Link to="/projects/artbook">
-              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects" src={ArtBook} alt="" />
-              </div>
-              <div className="text-left ">
-                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                  ArtBook Social Network
-                </p>
-                <p className="smallprojectstext mt-5 text-md">
-                  A MERN social network allowing you to share art with your
-                  friends.
-                </p>
-                <div className="hidden sm:block mt-5">
-                  <Link
-                    className="hover:underline font-semibold text-sm sm:text-md"
-                    to="/projects/artbook"
-                    y
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
-            </Link>
-           
             <Link to="/projects/guardian">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
                 <img className="smallprojects" src={Guardian} alt="" />
@@ -95,7 +71,11 @@ const Projects = () => {
 
             <Link to="/projects/chatter">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects shapeworks" src={ShapeWorks} alt="" />
+                <img
+                  className="smallprojects shapeworks"
+                  src={ShapeWorks}
+                  alt=""
+                />
               </div>
 
               <div className="text-left">
@@ -138,8 +118,29 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-
-            
+            <Link to="/projects/artbook">
+              <div className="smallprojects rounded transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={ArtBook} alt="" />
+              </div>
+              <div className="text-left ">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
+                  ArtBook Social Network
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A MERN social network allowing you to share art with your
+                  friends.
+                </p>
+                <div className="hidden sm:block mt-5">
+                  <Link
+                    className="hover:underline font-semibold text-sm sm:text-md"
+                    to="/projects/artbook"
+                    y
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </Layout>

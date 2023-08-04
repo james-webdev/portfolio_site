@@ -88,7 +88,7 @@ const ArtBook = () => {
                   </a>
                 </div>
               </div>
-              <div className="m-1 sm:m-4">
+              {/* <div className="m-1 sm:m-4">
                 <h2 className="m-1 sm:m-4 font-bold text-sm md:text-xl 2xl:text-3xl">
                   LIVE
                 </h2>
@@ -105,7 +105,7 @@ const ArtBook = () => {
                     Password: 5678
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="mt-10 shadow-lg">
