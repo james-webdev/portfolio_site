@@ -45,29 +45,6 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-            <Link to="/projects/pictionary">
-              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
-                <img className="smallprojects" src={Pictionary} alt="" />
-              </div>
-
-              <div className="text-left ">
-                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
-                  Websockets Pictionary
-                </p>
-                <p className="smallprojectstext mt-5 text-md">
-                  A pictionary game using P5.js and websockets with a MongoDB
-                  database.
-                </p>
-                <div className="mt-5 hidden sm:block">
-                  <Link
-                    className="hover:underline font-semibold text-sm sm:text-md"
-                    to="/projects/chatter"
-                  >
-                    VIEW PROJECT
-                  </Link>
-                </div>
-              </div>
-            </Link>
 
             <Link to="/projects/chatter">
               <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
@@ -84,6 +61,30 @@ const Projects = () => {
                 </p>
                 <p className="smallprojectstext mt-5 text-md">
                   A website with Wordpress and Gutenberg blocks.
+                </p>
+                <div className="mt-5 hidden sm:block">
+                  <Link
+                    className="hover:underline font-semibold text-sm sm:text-md"
+                    to="/projects/chatter"
+                  >
+                    VIEW PROJECT
+                  </Link>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/projects/pictionary">
+              <div className="smallprojects rounded-lg transform transition duration-500 hover:scale-105 ">
+                <img className="smallprojects" src={Pictionary} alt="" />
+              </div>
+
+              <div className="text-left ">
+                <p className="mt-3 text-xl sm:text-2xl font-bold mt-0 md:mt-10">
+                  Websockets Pictionary
+                </p>
+                <p className="smallprojectstext mt-5 text-md">
+                  A pictionary game using P5.js and websockets with a MongoDB
+                  database.
                 </p>
                 <div className="mt-5 hidden sm:block">
                   <Link
