@@ -17,10 +17,27 @@ const Chatter = () => {
     <>
       <Layout>
         <div className="mt-20 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:ml-60 lg:mr-60 mb-28">
-          <h1 className="font-bold text-3xl 2xl:text-5xl">Shape Works Website</h1>
+          <h1 className="font-bold text-3xl 2xl:text-5xl">
+            Shape Works Website
+          </h1>
           <div className="flex w-full sm:w-1/2 justify-start mt-5">
             <p className="2xl:text-2xl mt-3">
-              I built this site with my colleagues at Shape Works in 2023 with WordPress and custom Gutenberg blocks in React, PHP and SASS.
+              I built this site with my colleagues at Shape Works in 2023 with
+              WordPress and custom Gutenberg blocks in React, PHP and SASS. 
+              Other sites I help build at Shape Works:
+              <p className="p-1 mt-2 text-sm font-bold 2xl:text-2xl">
+              <a className="textSiteGreen" href="https://www.pragmaticsemi.com/">Pragmatic</a>
+                </p>
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+              <a className="textSiteGreen" href="https://surrey-research-park.com/">Surrey Research Park</a>
+                </p>
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+              <a className="textSiteGreen" href="https://www.birketts.co.uk/">Birketts</a>
+                </p>
+                <p className="p-1 text-sm font-bold 2xl:text-2xl">
+              <a className="textSiteGreen" href="https://www.cluttons.com/">Cluttons</a>
+                </p>
+             
             </p>{" "}
           </div>
           <div className="mt-5">
@@ -70,10 +87,7 @@ const Chatter = () => {
                   LIVE
                 </h2>
                 <p className="p-1 text-sm font-bold 2xl:text-2xl">
-                  <a
-                    className="textSiteGreen"
-                    href="https://shape.works/"
-                  >
+                  <a className="textSiteGreen" href="https://shape.works/">
                     View Site
                   </a>
                 </p>
@@ -92,7 +106,9 @@ const Chatter = () => {
               </div>
               <div className="">
                 <p className="max-w-4xl 2xl:text-2xl mt-3">
-                  Shape Works wanted to build its own new portfolio site to showcase the excellent work and the websites it has built for a range of high profile clients in recent years.
+                  Shape Works wanted to build its own new portfolio site to
+                  showcase the excellent work and the websites it has built for
+                  a range of high profile clients in recent years.
                 </p>
               </div>
             </div>
@@ -119,7 +135,9 @@ const Chatter = () => {
                 </h2>
               </div>
               <p className="max-w-4xl 2xl:text-2xl mt-3">
-                My team and used React to build custom Gutenberg blocks for this site. Back end logic was handled with PHP and WordPress and styling with SASS. The site is deployed on Kinsta servers.
+                My team and used React to build custom Gutenberg blocks for this
+                site. Back end logic was handled with PHP and WordPress and
+                styling with SASS. The site is deployed on Kinsta servers.
               </p>
             </div>
           </div>
