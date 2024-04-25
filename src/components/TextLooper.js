@@ -36,16 +36,16 @@ const TextLooper = () => {
         <TextLoop className="z-0 bgSiteGreen p-1 text-2xl text-white rounded-lg">
           <p className="ml-2 z-0 mt-2">ReactJS.</p>
           <p className="ml-2 z-0 mt-2">JavaScript ES6.</p>
-          <p className="ml-2 z-0 mt-2">GatsbyJS.</p>
+          <p className="ml-2 z-0 mt-2">Next.</p>
           <p className="ml-2 z-0 mt-2">CSS animations.</p>
+          <p className="ml-2 z-0 mt-2">TypeScript.</p>
           {/* <p className="ml-2 z-0 mt-2">Responsive design.</p> */}
           <p className="ml-2 z-0 mt-2">CSS Grid.</p>
           <p className="ml-2 z-0 mt-2">Tailwind CSS.</p>
-          <p className="ml-2 z-0 mt-2">SASS.</p>
-          <p className="ml-2 z-0 mt-2">PHP.</p>
+          <p className="ml-2 z-0 mt-2">Gatsby.</p>
           <p className="ml-2 z-0 mt-2">Git.</p>
           <p className="ml-2 z-0 mt-2">Flexbox.</p>
-          <p className="ml-2 z-0 mt-2">Wordpress.</p>
+          <p className="ml-2 z-0 mt-2">Storybook.</p>
           {/* <p className="ml-2 z-0 mt-2">Styled Components.</p> */}
         </TextLoop>{" "}
       </div>
