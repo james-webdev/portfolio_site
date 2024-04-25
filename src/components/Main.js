@@ -146,7 +146,7 @@ const Main = () => {
               Hi, I'm James.
             </h1>
             <h1 className="text-2xl mt-5 sm:mt-8 sm:text-4xl">
-              I'm a Web Engineer.
+              I'm a Frontend Developer.
             </h1> 
           </ScrollAnimation>
           <br />
