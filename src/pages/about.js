@@ -30,18 +30,18 @@ const About = () => {
             JavaScript development.
           </p>
           <p className="text-md sm:text-xl mt-5">
-            I have been coding nearly every day for 4 years now and have worked on a range of <Link
+            I have been coding nearly every day for 5 years now and have worked on a range of <Link
               className="textSiteGreen"
               to="/projects"
             >
               projects&nbsp;
             </Link>
-            in different stacks. The past year and half I have been working full-time at <a
+            in different stacks. The past year I have been working full-time at <a
               className="textSiteGreen"
-              href="https://shape.works"
+              href="https://www.goldbroker.com"
             >
-              Shape Works
-            </a> as a Web Engineer helping them build websites with React, SASS, PHP, Wordpress and JavaScript. 
+              GoldBroker
+            </a> as a Frontend developer. I'm currently helping them build a design system and redo the frontend in React, Next and TypeScript. 
           </p>
             {/* <p>I find development
             to be the perfect balance of creativity, which I value very highly,
